@@ -3,9 +3,7 @@ package com.skytecgames.testtask.sokolova.service.db;
 import com.skytecgames.testtask.sokolova.Main;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
-import lombok.AllArgsConstructor;
 
-import javax.sql.DataSource;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.SQLException;

@@ -1,5 +1,6 @@
 package com.skytecgames.testtask.sokolova.service.db;
 
+import com.skytecgames.testtask.sokolova.domain.Task;
 import lombok.Getter;
 
 import java.io.BufferedReader;
@@ -7,6 +8,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
+import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.stream.Collectors;
@@ -14,18 +16,15 @@ import java.util.stream.Collectors;
 @Getter
 public class DataBaseManager {
 
-    private final static String DDL_FILE_PATH = "src/main/resources/dbcreate.sql";
+    private static final int TASKS_NUMBER = 1000;
+    private final static int INSERT_LIMIT = 100;
+
+    private static final String DDL_FILE_PATH = "src/main/resources/dbcreate.sql";
+    private static final String CLANS_INFO_FILE_PATH = "src/main/resources/clans.sql";
     private final ConnectionPoolWrapper connectionPool;
 
     public DataBaseManager() throws SQLException, IOException, ClassNotFoundException, InstantiationException, IllegalAccessException {
         this.connectionPool = new ConnectionPoolWrapper();
-    }
-
-    public void initDB() throws IOException, SQLException {
-        String sql = getSQL(DDL_FILE_PATH);
-       // String sql = "SELECT * FROM users;" + "SELECT * from clans;";
-        Statement statement = connectionPool.getConnection().createStatement();
-        statement.executeUpdate(sql);
     }
 
     private String getSQL(String filename) throws IOException {
@@ -36,6 +35,42 @@ public class DataBaseManager {
             return br.lines().collect(Collectors.joining(" "));
         }
     }
+
+    private void executeSqlFromFile(String filename) throws IOException, SQLException {
+        String sql = getSQL(filename);
+        try(Connection connection = connectionPool.getConnection();
+            Statement statement = connection.createStatement()) {
+            statement.executeUpdate(sql);
+        }
+    }
+
+    //todo: refactor to another class - TaskGenerator
+    private void generateTasks() throws SQLException {
+        //TaskDao taskDao= new TaskDao();
+        try(Connection connection = connectionPool.getConnection();
+            Statement statement = connection.createStatement()) {
+            for (int i = 0; i < TASKS_NUMBER; i++) {
+                Task task = Task.generateRandomTask();
+                statement.addBatch(task.getInsertStatement());
+               // taskDao.addTaskInsertionToBatch(statement, task);
+                if(i % INSERT_LIMIT == 0) {
+                    statement.executeBatch();
+                }
+            }
+            statement.executeBatch();
+        }
+    }
+
+    public void initDB() throws IOException, SQLException {
+        executeSqlFromFile(DDL_FILE_PATH);
+        executeSqlFromFile(CLANS_INFO_FILE_PATH);
+        generateTasks();
+        //TODO: NO NEED USERS TABLE! THEY ARE THREADS, GENERATE THEM
+        //addUsers
+
+    }
+
+
 
     /*public void clearDB() throws SQLException {
         Statement statement = connection.createStatement();
