@@ -1,4 +1,4 @@
-package com.skytecgames.testtask.sokolova.domain;
+package com.skytecgames.testtask.sokolova.model;
 
 
 import lombok.AllArgsConstructor;
@@ -31,11 +31,10 @@ public class Task {
     }
 
     public String getInsertStatement() {
-       String test = "INSERT INTO tasks (type, description, award) " +
-               "VALUES (" +
-               "'" + type + "'" + ", " +
-               "'" + description + "'" + ", " +
-               + award + ")";
-        return test;
+        return "INSERT INTO tasks (type, description, award) " +
+                "VALUES (" +
+                "'" + type + "'" + ", " +
+                "'" + description + "'" + ", " +
+                + award + ")";
     }
 }

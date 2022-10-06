@@ -1,4 +1,4 @@
-package com.skytecgames.testtask.sokolova.service.db;
+package com.skytecgames.testtask.sokolova.db;
 
 import com.skytecgames.testtask.sokolova.Main;
 import com.zaxxer.hikari.HikariConfig;

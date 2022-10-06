@@ -1,4 +1,4 @@
-package com.skytecgames.testtask.sokolova.domain;
+package com.skytecgames.testtask.sokolova.model;
 
 
 public enum TaskType {
