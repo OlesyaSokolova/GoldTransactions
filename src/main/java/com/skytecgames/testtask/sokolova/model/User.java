@@ -1,4 +1,4 @@
-package com.skytecgames.testtask.sokolova.model.impl;
+package com.skytecgames.testtask.sokolova.model;
 
 import lombok.Getter;
 import org.apache.commons.lang3.RandomStringUtils;

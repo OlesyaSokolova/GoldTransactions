@@ -2,9 +2,9 @@ package com.skytecgames.testtask.sokolova;
 
 import com.skytecgames.testtask.sokolova.db.ConnectionPoolWrapper;
 import com.skytecgames.testtask.sokolova.db.DataBaseInitializer;
-import com.skytecgames.testtask.sokolova.model.impl.Clan;
-import com.skytecgames.testtask.sokolova.model.impl.Task;
-import com.skytecgames.testtask.sokolova.model.impl.User;
+import com.skytecgames.testtask.sokolova.model.Clan;
+import com.skytecgames.testtask.sokolova.model.Task;
+import com.skytecgames.testtask.sokolova.model.User;
 import com.skytecgames.testtask.sokolova.repository.impl.ClanRepository;
 import com.skytecgames.testtask.sokolova.repository.impl.TaskRepository;
 import com.skytecgames.testtask.sokolova.repository.impl.UserRepository;

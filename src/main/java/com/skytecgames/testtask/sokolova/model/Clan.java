@@ -1,4 +1,4 @@
-package com.skytecgames.testtask.sokolova.model.impl;
+package com.skytecgames.testtask.sokolova.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

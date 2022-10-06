@@ -1,7 +1,7 @@
 package com.skytecgames.testtask.sokolova.db;
 
-import com.skytecgames.testtask.sokolova.model.impl.Task;
-import com.skytecgames.testtask.sokolova.model.impl.User;
+import com.skytecgames.testtask.sokolova.model.Task;
+import com.skytecgames.testtask.sokolova.model.User;
 import lombok.Getter;
 
 import java.io.BufferedReader;

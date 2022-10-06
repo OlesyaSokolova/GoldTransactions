@@ -1,8 +1,7 @@
 package com.skytecgames.testtask.sokolova.repository.impl;
 
 import com.skytecgames.testtask.sokolova.db.ConnectionPoolWrapper;
-import com.skytecgames.testtask.sokolova.model.impl.Clan;
-import com.skytecgames.testtask.sokolova.model.impl.User;
+import com.skytecgames.testtask.sokolova.model.User;
 import com.skytecgames.testtask.sokolova.repository.RepositoryInterface;
 
 import java.sql.Connection;

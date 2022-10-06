@@ -1,8 +1,7 @@
 package com.skytecgames.testtask.sokolova.repository.impl;
 
 import com.skytecgames.testtask.sokolova.db.ConnectionPoolWrapper;
-import com.skytecgames.testtask.sokolova.db.DataBaseInitializer;
-import com.skytecgames.testtask.sokolova.model.impl.Task;
+import com.skytecgames.testtask.sokolova.model.Task;
 import com.skytecgames.testtask.sokolova.repository.RepositoryInterface;
 
 import java.util.ArrayList;

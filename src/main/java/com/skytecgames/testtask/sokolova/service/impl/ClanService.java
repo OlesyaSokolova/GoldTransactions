@@ -1,6 +1,6 @@
 package com.skytecgames.testtask.sokolova.service.impl;
 
-import com.skytecgames.testtask.sokolova.model.impl.Clan;
+import com.skytecgames.testtask.sokolova.model.Clan;
 import com.skytecgames.testtask.sokolova.repository.impl.ClanRepository;
 import com.skytecgames.testtask.sokolova.service.Service;
 

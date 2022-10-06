@@ -1,13 +1,10 @@
-package com.skytecgames.testtask.sokolova.model.impl;
+package com.skytecgames.testtask.sokolova.model;
 
 
-import com.skytecgames.testtask.sokolova.model.TaskType;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 import java.util.concurrent.ThreadLocalRandom;
 
-@AllArgsConstructor
 @Getter
 public class Task {
 
@@ -17,11 +14,18 @@ public class Task {
     private static final int MAX_AWARD = 1051;
     private static final int MIN_AWARD = 15;
 
+    private int id;
     private final TaskType type;
     private final String description;
     private final int award;
 
     private static final TaskType[] possibleTypes = TaskType.values();
+
+    public Task(TaskType type, String description, int award) {
+        this.type = type;
+        this.description = description;
+        this.award = award;
+    }
 
     public static Task generateRandomTask() {
         return new Task(
