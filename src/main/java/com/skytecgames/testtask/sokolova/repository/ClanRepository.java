@@ -1,11 +1,12 @@
 package com.skytecgames.testtask.sokolova.repository;
 
+import com.skytecgames.testtask.sokolova.db.ConnectionPoolWrapper;
 import com.skytecgames.testtask.sokolova.db.DataBaseInitializer;
 
 public class ClanRepository {
-    private final DataBaseInitializer dataBaseManager;
+    private final ConnectionPoolWrapper connectionPoolWrapper;
 
-    public ClanRepository(DataBaseInitializer dataBaseManager) {
-        this.dataBaseManager = dataBaseManager;
+    public ClanRepository(ConnectionPoolWrapper connectionPoolWrapper) {
+        this.connectionPoolWrapper = connectionPoolWrapper;
     }
 }

@@ -26,11 +26,11 @@ public class DataBaseInitializer {
 
     //TODO: pass ConnectionPool from MainController - GameController,
     // который будет все организовывать и передавать в репозитории это коннекшн пул
-    public DataBaseInitializer() throws SQLException, IOException, ClassNotFoundException, InstantiationException, IllegalAccessException {
-        this.connectionPool = new ConnectionPoolWrapper();
+    public DataBaseInitializer(ConnectionPoolWrapper connectionPool) {
+        this.connectionPool = connectionPool;
     }
 
-    private String getSQL(String filename) throws IOException {
+    private String getSQLfromFile(String filename) throws IOException {
         try (BufferedReader br = new BufferedReader(
                 new InputStreamReader(
                         new FileInputStream(filename),
@@ -40,7 +40,7 @@ public class DataBaseInitializer {
     }
 
     private void executeSqlFromFile(String filename) throws IOException, SQLException {
-        String sql = getSQL(filename);
+        String sql = getSQLfromFile(filename);
         try(Connection connection = connectionPool.getConnection();
             Statement statement = connection.createStatement()) {
             statement.executeUpdate(sql);

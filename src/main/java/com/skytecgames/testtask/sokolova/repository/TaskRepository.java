@@ -1,14 +1,15 @@
 package com.skytecgames.testtask.sokolova.repository;
 
+import com.skytecgames.testtask.sokolova.db.ConnectionPoolWrapper;
 import com.skytecgames.testtask.sokolova.db.DataBaseInitializer;
 
 //TODO: no need to create dao package
 public class TaskRepository {
 
-    private final DataBaseInitializer dataBaseManager;
+    private final ConnectionPoolWrapper connectionPoolWrapper;
 
-    public TaskRepository(DataBaseInitializer dataBaseManager) {
-        this.dataBaseManager = dataBaseManager;
+    public TaskRepository(ConnectionPoolWrapper connectionPoolWrapper) {
+        this.connectionPoolWrapper = connectionPoolWrapper;
     }
 
    /* private void executeBatch() throws SQLException {

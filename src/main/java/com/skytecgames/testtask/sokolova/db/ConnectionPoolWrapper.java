@@ -15,14 +15,14 @@ public class ConnectionPoolWrapper {
 
     private final HikariDataSource dataSource;
 
-    public ConnectionPoolWrapper() throws IOException, SQLException, ClassNotFoundException, InstantiationException, IllegalAccessException {
+    public ConnectionPoolWrapper() throws IOException {
         Properties properties = new Properties();
         properties.load(Main.class.getResourceAsStream(DB_PROPERTIES_FILE));
         String url = properties.getProperty("URL");
         String login = properties.getProperty("LOGIN");
         String password = properties.getProperty("PASSWORD");
 
-        Class.forName("com.mysql.jdbc.Driver");
+        //Class.forName("com.mysql.jdbc.Driver");
         HikariConfig config = new HikariConfig();
         config.setJdbcUrl(url);
         config.setUsername(login);

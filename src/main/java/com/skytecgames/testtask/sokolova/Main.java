@@ -9,7 +9,12 @@ public class Main {
     public static void main(String[] args) {
 
         try {
-            DataBaseInitializer dbMManager  = new DataBaseInitializer();
+            GameController gameController = GameController.getInstance();
+            //todo: ъединить два метода, а то сейчас init омжет быть забыт
+            gameController.init();
+            gameController.start();
+            //tODO: results will be shown in the logs
+            //gameController.printResult();
             //dbMManager.initDB();
         }
         catch (Exception e) {
