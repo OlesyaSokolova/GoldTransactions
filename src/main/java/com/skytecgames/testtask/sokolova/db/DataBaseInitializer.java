@@ -1,6 +1,7 @@
 package com.skytecgames.testtask.sokolova.db;
 
-import com.skytecgames.testtask.sokolova.model.Task;
+import com.skytecgames.testtask.sokolova.model.impl.Task;
+import com.skytecgames.testtask.sokolova.model.impl.User;
 import lombok.Getter;
 
 import java.io.BufferedReader;
@@ -9,14 +10,17 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.sql.Connection;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Collectors;
 
 @Getter
 public class DataBaseInitializer {
 
     private static final int TASKS_NUMBER = 1000;
+    private static final int USERS_NUMBER = 1000;
     private final static int INSERT_LIMIT = 100;
 
     private static final String DDL_FILE_PATH = "src/main/resources/dbcreate.sql";
@@ -30,7 +34,7 @@ public class DataBaseInitializer {
         this.connectionPool = connectionPool;
     }
 
-    private String getSQLfromFile(String filename) throws IOException {
+    private String readSqlFromFile(String filename) throws IOException {
         try (BufferedReader br = new BufferedReader(
                 new InputStreamReader(
                         new FileInputStream(filename),
@@ -40,7 +44,7 @@ public class DataBaseInitializer {
     }
 
     private void executeSqlFromFile(String filename) throws IOException, SQLException {
-        String sql = getSQLfromFile(filename);
+        String sql = readSqlFromFile(filename);
         try(Connection connection = connectionPool.getConnection();
             Statement statement = connection.createStatement()) {
             statement.executeUpdate(sql);
@@ -49,13 +53,35 @@ public class DataBaseInitializer {
 
     //todo: refactor to another class - TaskGenerator
     private void generateTasks() throws SQLException {
-        //TaskDao taskDao= new TaskDao();
         try(Connection connection = connectionPool.getConnection();
             Statement statement = connection.createStatement()) {
             for (int i = 0; i < TASKS_NUMBER; i++) {
                 Task task = Task.generateRandomTask();
                 statement.addBatch(task.getInsertStatement());
-               // taskDao.addTaskInsertionToBatch(statement, task);
+                if(i % INSERT_LIMIT == 0) {
+                    statement.executeBatch();
+                }
+            }
+            statement.executeBatch();
+        }
+    }
+
+
+    private void generateUsers() throws SQLException {
+
+        try(Connection connection = connectionPool.getConnection();
+            Statement statement = connection.createStatement()) {
+
+            ResultSet resultSet = statement.executeQuery("SELECT COUNT(*) FROM clans");
+            resultSet.next();
+
+            int clansNumber = resultSet.getInt(1);
+            for (int i = 0; i < USERS_NUMBER; i++) {
+
+                User user = User.generateRandomUser();
+                user.assignToClan(ThreadLocalRandom.current().nextInt(0, clansNumber));
+
+                statement.addBatch(user.getInsertStatement());
                 if(i % INSERT_LIMIT == 0) {
                     statement.executeBatch();
                 }
@@ -67,6 +93,9 @@ public class DataBaseInitializer {
     public void initDB() throws IOException, SQLException {
         executeSqlFromFile(DDL_FILE_PATH);
         executeSqlFromFile(CLANS_INFO_FILE_PATH);
+        //generateClans();
+        //executeSqlFromFile(USERS_INFO_FILE_PATH);
+        generateUsers();
         //generateTasks();
         //TODO: NO NEED USERS TABLE! THEY ARE THREADS, GENERATE THEM
         //addUsers

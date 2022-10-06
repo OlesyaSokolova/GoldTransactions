@@ -1,8 +1,7 @@
 package com.skytecgames.testtask.sokolova.handler;
 
-import com.skytecgames.testtask.sokolova.model.User;
-import com.skytecgames.testtask.sokolova.model.Task;
-import com.skytecgames.testtask.sokolova.service.ClanService;
+import com.skytecgames.testtask.sokolova.model.impl.User;
+import com.skytecgames.testtask.sokolova.model.impl.Task;
 
 public class TaskListener {
     private ClanService clanService;

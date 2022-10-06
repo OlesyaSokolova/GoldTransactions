@@ -1,23 +1,17 @@
 package com.skytecgames.testtask.sokolova.service.impl;
 
-import com.skytecgames.testtask.sokolova.model.Clan;
+import com.skytecgames.testtask.sokolova.model.impl.Clan;
 import com.skytecgames.testtask.sokolova.repository.ClanRepository;
-import com.skytecgames.testtask.sokolova.service.ClanService;
+import com.skytecgames.testtask.sokolova.service.Service;
 
 import java.util.ArrayList;
 
-public class ClanServiceImpl implements ClanService {
+public class ClanService implements Service<Clan> {
 
     private final ClanRepository clanRepository;
 
-    public ClanServiceImpl(ClanRepository clanRepository) {
+    public ClanService(ClanRepository clanRepository) {
         this.clanRepository = clanRepository;
-    }
-
-    @Override
-    public Clan getById(long clanId) {
-       //return clanRepository.getById(clanId);
-        return null;
     }
 
     @Override
@@ -28,6 +22,11 @@ public class ClanServiceImpl implements ClanService {
 
     @Override
     public ArrayList<Clan> getAll() {
+        return null;
+    }
+
+    @Override
+    public Clan getById(long id) {
         return null;
     }
 }

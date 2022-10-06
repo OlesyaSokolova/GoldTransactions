@@ -1,4 +1,4 @@
-package com.skytecgames.testtask.sokolova.model;
+package com.skytecgames.testtask.sokolova.model.impl;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -11,7 +11,7 @@ public class Clan {
     private String name; // имя клана
     private int gold;    // текущее количество золота в казне клана
 
-   public void changeGold(int delta) {
+   public void updateGold(int delta) {
         gold += delta;
     }
 }

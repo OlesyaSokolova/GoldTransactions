@@ -1,8 +1,5 @@
 package com.skytecgames.testtask.sokolova.handler.impl;
 
-import com.skytecgames.testtask.sokolova.model.Clan;
-import com.skytecgames.testtask.sokolova.service.ClanService;
-
 /*
 // Еще один такой сервис
 public class TaskService { // какой-то сервис с заданиями

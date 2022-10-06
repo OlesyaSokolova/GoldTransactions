@@ -1,15 +1,22 @@
 package com.skytecgames.testtask.sokolova.service.impl;
 
-import com.skytecgames.testtask.sokolova.model.Task;
+import com.skytecgames.testtask.sokolova.model.impl.Task;
 import com.skytecgames.testtask.sokolova.repository.TaskRepository;
-import com.skytecgames.testtask.sokolova.service.TaskService;
+import com.skytecgames.testtask.sokolova.service.Service;
 
-public class TaskServiceImpl implements TaskService {
+import java.util.ArrayList;
+
+public class TaskService implements Service<Task> {
 
     private final TaskRepository taskRepository;
 
-    public TaskServiceImpl(TaskRepository taskRepository) {
+    public TaskService(TaskRepository taskRepository) {
         this.taskRepository = taskRepository;
+    }
+
+    @Override
+    public ArrayList<Task> getAll() {
+        return null;
     }
 
     @Override
