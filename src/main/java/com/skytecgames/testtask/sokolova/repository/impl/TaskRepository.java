@@ -26,11 +26,6 @@ public class TaskRepository implements RepositoryInterface<Task> {
         return null;
     }
 
-    @Override
-    public boolean save(Task user) {
-        return false;
-    }
-
    /* private void executeBatch() throws SQLException {
         if(statement != null) {
             statement.executeBatch();

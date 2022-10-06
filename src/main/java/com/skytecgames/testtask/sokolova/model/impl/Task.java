@@ -11,7 +11,7 @@ import java.util.concurrent.ThreadLocalRandom;
 @Getter
 public class Task {
 
-    public static final String PARAMETRIZED_STATEMEND = "INSERT INTO TASKS (type, description, award) " +
+    public static final String PARAMETRIZED_STATEMEND = "INSERT INTO tasks (type, description, award) " +
                                                                    "values (?,    ?,           ?    )";
 
     private static final int MAX_AWARD = 1051;
@@ -41,7 +41,8 @@ public class Task {
     }*/
 
     //@Override
-    public static Task generateRandomInstace() {
+    public static Task generateRandomInstance() {
         return generateRandomTask();
     }
+
 }

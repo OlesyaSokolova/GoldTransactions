@@ -22,9 +22,4 @@ public class UserRepository implements RepositoryInterface<User> {
     public User getById(long id) {
         return null;
     }
-
-    @Override
-    public boolean save(User user) {
-        return false;
-    }
 }

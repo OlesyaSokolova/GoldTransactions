@@ -11,7 +11,7 @@ public class User {
     private static final int INITIAL_GOLD = 30;
 
     public static final String PARAMETRIZED_STATEMENT = "INSERT INTO users (name, email, clanid, gold) " +
-                                                             "values (?,    ?,     ?,      ?,  )";
+                                                                   "values (?,    ?,     ?,      ?   )";
 
     private final String name;
     private final String email;
@@ -35,13 +35,7 @@ public class User {
                 gold + ")";
     }*/
 
-
-    //@Override
-    public static User generateRandomInstace() {
-        return generateRandomUser();
-    }
-
-    public static User generateRandomUser() {
+    public static User generateRandomInstance() {
         return new User(
                 RandomStringUtils.randomAlphabetic(NAME_LENGTH),
                 RandomStringUtils.randomAlphabetic(NAME_LENGTH) + EMAIL_POSTFIX

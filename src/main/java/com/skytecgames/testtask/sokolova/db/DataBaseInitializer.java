@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 @Getter
 public class DataBaseInitializer {
 
-    private static final int TASKS_NUMBER = 1000;
+    private static final int TASKS_NUMBER = 100;
     private static final int USERS_NUMBER = 200;
     private final static int INSERT_LIMIT = 100;
 
@@ -51,7 +51,7 @@ public class DataBaseInitializer {
             PreparedStatement statement = connection.prepareStatement(Task.PARAMETRIZED_STATEMEND)) {
             for (int i = 0; i < TASKS_NUMBER; i++) {
 
-                Task task = Task.generateRandomTask();
+                Task task = Task.generateRandomInstance();
                 statement.setString(1, task.getType().toString());
                 statement.setString(2, task.getDescription());
                 statement.setInt(3, task.getAward());
@@ -77,8 +77,8 @@ public class DataBaseInitializer {
             int clansNumber = resultSet.getInt(1);
             for (int i = 0; i < USERS_NUMBER; i++) {
 
-                User user = User.generateRandomUser();
-                user.assignToClan(ThreadLocalRandom.current().nextInt(0, clansNumber));
+                User user = User.generateRandomInstance();
+                user.assignToClan(ThreadLocalRandom.current().nextInt(1, clansNumber));
 
                 statement.setString(1, user.getName());
                 statement.setString(2, user.getEmail());
