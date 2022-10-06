@@ -9,10 +9,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Collectors;
 
@@ -20,7 +17,7 @@ import java.util.stream.Collectors;
 public class DataBaseInitializer {
 
     private static final int TASKS_NUMBER = 1000;
-    private static final int USERS_NUMBER = 1000;
+    private static final int USERS_NUMBER = 200;
     private final static int INSERT_LIMIT = 100;
 
     private static final String DDL_FILE_PATH = "src/main/resources/dbcreate.sql";
@@ -51,10 +48,16 @@ public class DataBaseInitializer {
 
     private void generateTasks() throws SQLException {
         try(Connection connection = connectionPool.getConnection();
-            Statement statement = connection.createStatement()) {
+            PreparedStatement statement = connection.prepareStatement(Task.PARAMETRIZED_STATEMEND)) {
             for (int i = 0; i < TASKS_NUMBER; i++) {
+
                 Task task = Task.generateRandomTask();
-                statement.addBatch(task.getInsertStatement());
+                statement.setString(1, task.getType().toString());
+                statement.setString(2, task.getDescription());
+                statement.setInt(3, task.getAward());
+                statement.addBatch();
+
+                //statement.addBatch(task.getInsertStatement());
                 if(i % INSERT_LIMIT == 0) {
                     statement.executeBatch();
                 }
@@ -66,7 +69,7 @@ public class DataBaseInitializer {
     private void generateUsers() throws SQLException {
 
         try(Connection connection = connectionPool.getConnection();
-            Statement statement = connection.createStatement()) {
+            PreparedStatement statement = connection.prepareStatement(User.PARAMETRIZED_STATEMENT)) {
 
             ResultSet resultSet = statement.executeQuery("SELECT COUNT(*) FROM clans");
             resultSet.next();
@@ -77,7 +80,12 @@ public class DataBaseInitializer {
                 User user = User.generateRandomUser();
                 user.assignToClan(ThreadLocalRandom.current().nextInt(0, clansNumber));
 
-                statement.addBatch(user.getInsertStatement());
+                statement.setString(1, user.getName());
+                statement.setString(2, user.getEmail());
+                statement.setInt(3, user.getClanId());
+                statement.setInt(4, user.getGold());
+                statement.addBatch();
+                //statement.addBatch(user.getInsertStatement());
                 if(i % INSERT_LIMIT == 0) {
                     statement.executeBatch();
                 }

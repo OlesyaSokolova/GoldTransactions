@@ -7,7 +7,7 @@ import lombok.Getter;
 @AllArgsConstructor
 @Getter
 public class Clan {
-    private long id;     // id клана
+    private int id;     // id клана
     private String name; // имя клана
     private int gold;    // текущее количество золота в казне клана
 

@@ -28,7 +28,6 @@ public class ConnectionPoolWrapper {
         config.setUsername(login);
         config.setPassword(password);
         dataSource = new HikariDataSource(config);
-        // connection = DriverManager.getConnection(url, login, password);
     }
 
     //TODO: apply statement (give it to connection pool)

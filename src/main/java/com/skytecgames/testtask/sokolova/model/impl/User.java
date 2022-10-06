@@ -1,15 +1,17 @@
 package com.skytecgames.testtask.sokolova.model.impl;
 
-import com.skytecgames.testtask.sokolova.model.ModelInterface;
+import lombok.Getter;
 import org.apache.commons.lang3.RandomStringUtils;
 
-import java.util.concurrent.ThreadLocalRandom;
-
-public class User implements ModelInterface<User> {
+@Getter
+public class User {
 
     private static final int NAME_LENGTH = 5;
     private static final String EMAIL_POSTFIX = "@mail.com";
     private static final int INITIAL_GOLD = 30;
+
+    public static final String PARAMETRIZED_STATEMENT = "INSERT INTO users (name, email, clanid, gold) " +
+                                                             "values (?,    ?,     ?,      ?,  )";
 
     private final String name;
     private final String email;
@@ -22,7 +24,8 @@ public class User implements ModelInterface<User> {
         this.email = email;
     }
 
-    @Override
+
+   /* @Override
     public String getInsertStatement() {
         return "INSERT INTO users (name, email, clanid, gold) " +
                 "VALUES (" +
@@ -30,10 +33,11 @@ public class User implements ModelInterface<User> {
                 "'" + email + "'" + ", " +
                 clanId + ", " +
                 gold + ")";
-    }
+    }*/
 
-    @Override
-    public User generateRandomInstace() {
+
+    //@Override
+    public static User generateRandomInstace() {
         return generateRandomUser();
     }
 
