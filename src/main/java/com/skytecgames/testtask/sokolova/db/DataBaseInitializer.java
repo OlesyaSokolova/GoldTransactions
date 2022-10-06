@@ -28,8 +28,6 @@ public class DataBaseInitializer {
 
     private final ConnectionPoolWrapper connectionPool;
 
-    //TODO: pass ConnectionPool from MainController - GameController,
-    // который будет все организовывать и передавать в репозитории это коннекшн пул
     public DataBaseInitializer(ConnectionPoolWrapper connectionPool) {
         this.connectionPool = connectionPool;
     }
@@ -51,7 +49,6 @@ public class DataBaseInitializer {
         }
     }
 
-    //todo: refactor to another class - TaskGenerator
     private void generateTasks() throws SQLException {
         try(Connection connection = connectionPool.getConnection();
             Statement statement = connection.createStatement()) {
@@ -65,7 +62,6 @@ public class DataBaseInitializer {
             statement.executeBatch();
         }
     }
-
 
     private void generateUsers() throws SQLException {
 
@@ -93,26 +89,7 @@ public class DataBaseInitializer {
     public void initDB() throws IOException, SQLException {
         executeSqlFromFile(DDL_FILE_PATH);
         executeSqlFromFile(CLANS_INFO_FILE_PATH);
-        //generateClans();
-        //executeSqlFromFile(USERS_INFO_FILE_PATH);
         generateUsers();
-        //generateTasks();
-        //TODO: NO NEED USERS TABLE! THEY ARE THREADS, GENERATE THEM
-        //addUsers
-
+        generateTasks();
     }
-
-   /* private ResultSet executeStringQuery(String query) throws SQLException {
-        try(Connection connection = connectionPool.getConnection();
-            Statement statement = connection.createStatement()) {
-            return statement.executeQuery(query);
-        }
-    }*/
-    /*public void clearDB() throws SQLException {
-        Statement statement = connection.createStatement();
-        String query = "truncate table tags cascade;" +
-                "truncate table nodes cascade;";
-        statement.execute(query);
-        connection.commit();
-    }*/
 }

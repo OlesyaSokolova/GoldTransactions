@@ -5,9 +5,9 @@ import com.skytecgames.testtask.sokolova.db.DataBaseInitializer;
 import com.skytecgames.testtask.sokolova.model.impl.Clan;
 import com.skytecgames.testtask.sokolova.model.impl.Task;
 import com.skytecgames.testtask.sokolova.model.impl.User;
-import com.skytecgames.testtask.sokolova.repository.ClanRepository;
-import com.skytecgames.testtask.sokolova.repository.TaskRepository;
-import com.skytecgames.testtask.sokolova.repository.UserRepository;
+import com.skytecgames.testtask.sokolova.repository.impl.ClanRepository;
+import com.skytecgames.testtask.sokolova.repository.impl.TaskRepository;
+import com.skytecgames.testtask.sokolova.repository.impl.UserRepository;
 import com.skytecgames.testtask.sokolova.service.Service;
 import com.skytecgames.testtask.sokolova.service.impl.ClanService;
 import com.skytecgames.testtask.sokolova.service.impl.TaskService;
@@ -50,7 +50,6 @@ public class GameController {
 
         GameHost gameHost = new GameHost(clanService, taskService, userService);
 
-        //todo: userpraperer - будет генерировать игроков
         gameHost.prepareGameConditions();
         //а вот здесь они уже запускаются в игру
         gameHost.start();

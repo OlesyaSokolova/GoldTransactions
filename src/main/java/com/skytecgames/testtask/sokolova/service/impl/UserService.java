@@ -1,7 +1,7 @@
 package com.skytecgames.testtask.sokolova.service.impl;
 
 import com.skytecgames.testtask.sokolova.model.impl.User;
-import com.skytecgames.testtask.sokolova.repository.UserRepository;
+import com.skytecgames.testtask.sokolova.repository.impl.UserRepository;
 import com.skytecgames.testtask.sokolova.service.Service;
 
 import java.util.ArrayList;
