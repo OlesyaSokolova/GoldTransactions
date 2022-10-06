@@ -7,11 +7,11 @@ import lombok.Getter;
 @AllArgsConstructor
 @Getter
 public class Clan {
-    private int id;     // id клана
-    private String name; // имя клана
+    private final int id;     // id клана
+    private final String name; // имя клана
     private int gold;    // текущее количество золота в казне клана
 
-   public void updateGold(int delta) {
+    public void updateGold(int delta) {
         gold += delta;
     }
 }

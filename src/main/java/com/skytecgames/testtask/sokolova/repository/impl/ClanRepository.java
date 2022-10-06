@@ -10,9 +10,6 @@ import java.util.List;
 
 public class ClanRepository implements RepositoryInterface<Clan> {
 
-    private final String PARAMETRIZED_STATEMENT = "insert into clans(id, version, timestamp, uid, username, changeset, lat, lon, visible) " +
-            "values (?,  ?,       ?,         ?,   ?,        ?,         ?,   ?,   ?)";
-
     private final ConnectionPoolWrapper connectionPool;
 
     public ClanRepository(ConnectionPoolWrapper connectionPoolWrapper) {
@@ -46,8 +43,11 @@ public class ClanRepository implements RepositoryInterface<Clan> {
 
     public void update(Clan clan) throws SQLException {
         try (Connection connection = connectionPool.getConnection();
-             PreparedStatement statement = connection.prepareStatement(PARAMETRIZED_STATEMENT)) {
+             PreparedStatement statement = connection.prepareStatement(
+                    "UPDATE clans SET gold = ? WHERE id = ?")) {
+
             statement.setInt(1, clan.getGold());
+            statement.setInt(2, clan.getId());
             statement.execute();
         }
     }

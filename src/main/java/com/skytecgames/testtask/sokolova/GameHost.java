@@ -25,7 +25,6 @@ public class GameHost {
 
     public void prepareGameConditions() {
         clans = new ArrayList<>(clanService.getAll());
-        //сделать генерацию пользователей с назначением каждому заданий.
         users = new ArrayList<>(userService.getAll());
         users.forEach(user -> {
             Task task = Task.generateRandomTask();

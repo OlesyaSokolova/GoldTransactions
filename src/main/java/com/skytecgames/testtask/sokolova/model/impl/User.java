@@ -12,7 +12,7 @@ public class User {
 
     public static final String PARAMETRIZED_STATEMENT = "INSERT INTO users (name, email, clanid, gold) " +
                                                                    "values (?,    ?,     ?,      ?   )";
-
+    private int id;
     private final String name;
     private final String email;
     private int clanId;
@@ -22,6 +22,13 @@ public class User {
     public User(String name, String email) {
         this.name = name;
         this.email = email;
+    }
+
+    public User(int id, String name, String email, int clanid, int gold) {
+        this.id = id;
+        this.name = name;
+        this.email= email;
+        this.clanId = clanid;
     }
 
 
