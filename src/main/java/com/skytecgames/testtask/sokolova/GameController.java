@@ -35,7 +35,7 @@ public class GameController {
 
        connectionPool = new ConnectionPoolWrapper();
        DataBaseInitializer dataBaseInitializer = new DataBaseInitializer(connectionPool);
-       dataBaseInitializer.initDB();
+      // dataBaseInitializer.initDB();
     }
 
     public void start() throws SQLException {

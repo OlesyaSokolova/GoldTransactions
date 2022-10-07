@@ -29,4 +29,9 @@ public class UserService implements Service<User> {
     public User getRandom() throws SQLException {
         return userRepository.getRandom();
     }
+
+    @Override
+    public void update(User user) throws SQLException {
+        userRepository.update(user);
+    }
 }

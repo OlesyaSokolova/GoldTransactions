@@ -21,6 +21,11 @@ public class ClanService implements Service<Clan> {
     }
 
     @Override
+    public void update(Clan clan) throws SQLException {
+        clanRepository.update(clan);
+    }
+
+    @Override
     public List<Clan> getAll() throws SQLException {
         return clanRepository.getAll();
     }
@@ -28,5 +33,9 @@ public class ClanService implements Service<Clan> {
     @Override
     public Clan getById(int id) throws SQLException {
        return clanRepository.getById(id);
+    }
+
+    public void updateClan(Clan clan) throws SQLException {
+        clanRepository.update(clan);
     }
 }

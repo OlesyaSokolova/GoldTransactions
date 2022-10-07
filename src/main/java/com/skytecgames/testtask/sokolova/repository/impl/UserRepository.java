@@ -72,4 +72,18 @@ public class UserRepository implements RepositoryInterface<User> {
             return result.get(0);
         }
     }
+
+    @Override
+    public void update(User user) throws SQLException {
+        try (Connection connection = connectionPool.getConnection();
+             PreparedStatement statement = connection.prepareStatement(
+                     "UPDATE users SET clanid = ?, name = ?, email = ?, gold = ? WHERE id = ?")) {
+
+            statement.setInt(1, user.getClanId());
+            statement.setString(2, user.getName());
+            statement.setString(3, user.getEmail());
+            statement.setInt(4, user.getGold());
+            statement.execute();
+        }
+    }
 }

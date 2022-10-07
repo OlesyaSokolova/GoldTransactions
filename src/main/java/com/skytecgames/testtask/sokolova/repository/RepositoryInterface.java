@@ -11,5 +11,5 @@ public interface RepositoryInterface <T> {
 
     T getRandom() throws SQLException;
 
-   // boolean save(T user) throws SQLException;
+     void update (T t) throws SQLException;
 }

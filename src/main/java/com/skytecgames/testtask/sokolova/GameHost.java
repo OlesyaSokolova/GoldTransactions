@@ -56,6 +56,7 @@ public class GameHost {
         transactionInfo.setGoldBefore(clans[clanId].getGold());
         clans[clanId].updateGold(transactionInfo.getGoldDelta());
         try {
+            clanService.update(clans[clanId]);
             return getDetailedInfo(transactionInfo);
         } catch (SQLException e) {
             e.printStackTrace();

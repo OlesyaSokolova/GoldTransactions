@@ -71,4 +71,17 @@ public class TaskRepository implements RepositoryInterface<Task> {
             return result.get(0);
         }
     }
+
+    @Override
+    public void update(Task task) throws SQLException {
+        try (Connection connection = connectionPool.getConnection();
+             PreparedStatement statement = connection.prepareStatement(
+                     "UPDATE tasks SET type = ?, description = ?, award = ?, gold = ? WHERE id = ?")) {
+
+            statement.setString(1, task.getType().toString());
+            statement.setString(2, task.getDescription());
+            statement.setInt(3, task.getAward());
+            statement.execute();
+        }
+    }
 }

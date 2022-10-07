@@ -11,4 +11,6 @@ public interface Service<T> {
     T getById(int id) throws SQLException;
 
     T getRandom() throws SQLException;
+
+    void update(T t) throws SQLException;
 }
