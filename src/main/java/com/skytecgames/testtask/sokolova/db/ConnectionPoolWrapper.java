@@ -9,13 +9,12 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.Properties;
 
-
 public class ConnectionPoolWrapper {
     private final static String DB_PROPERTIES_FILE = "/db.properties";
 
     private final HikariDataSource dataSource;
 
-    public ConnectionPoolWrapper() throws IOException, ClassNotFoundException {
+    public ConnectionPoolWrapper() throws IOException {
         Properties properties = new Properties();
         properties.load(Main.class.getResourceAsStream(DB_PROPERTIES_FILE));
         String url = properties.getProperty("URL");

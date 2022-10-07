@@ -47,7 +47,6 @@ public class GameHost {
                                 future.thenApply(this::processTransactionResults))
                         .collect(Collectors.toList());
 
-        //do somethimg with result: - save to db, for example or write to file
         completedTasks.stream().map(CompletableFuture::join).forEach(log::info);
     }
 

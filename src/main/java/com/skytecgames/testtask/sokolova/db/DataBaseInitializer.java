@@ -77,7 +77,7 @@ public class DataBaseInitializer {
             for (int i = 0; i < USERS_NUMBER; i++) {
 
                 User user = User.generateRandomInstance();
-                user.assignToClan(ThreadLocalRandom.current().nextInt(1, clansNumber + 1));
+                user.assignToClan(ThreadLocalRandom.current().nextInt(1, clansNumber));
 
                 statement.setString(1, user.getName());
                 statement.setString(2, user.getEmail());

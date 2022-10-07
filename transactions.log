@@ -1,1 +1,1401 @@
-2022-10-07 21:51:17  INFO HikariDataSource - HikariCP pool HikariPool-0 is starting.
+2022-10-07 22:04:12  INFO HikariDataSource - HikariCP pool HikariPool-0 is starting.
+2022-10-07 22:04:44  INFO GameHost - Gold was changed in clan Типани by user BwGEA (eYqsy@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 0.
+Clan's gold after: 340.
+User started to complete the task at: 2022-10-07T22:04:44.085698.
+Task was completed at: 2022-10-07T22:04:44.179338.
+
+2022-10-07 22:04:44  INFO GameHost - Gold was changed in clan Меткайина by user CeLAs (CJFAw@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 0.
+Clan's gold after: 248.
+User started to complete the task at: 2022-10-07T22:04:44.092237.
+Task was completed at: 2022-10-07T22:04:44.17243.
+
+2022-10-07 22:04:44  INFO GameHost - Gold was changed in clan Оматикайя by user xtwSa (OeBad@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 0.
+Clan's gold after: 322.
+User started to complete the task at: 2022-10-07T22:04:44.086909.
+Task was completed at: 2022-10-07T22:04:44.172509.
+
+2022-10-07 22:04:44  INFO GameHost - Gold was changed in clan Тауками by user TaWMy (WHrEh@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 0.
+Clan's gold after: 59.
+User started to complete the task at: 2022-10-07T22:04:44.243166.
+Task was completed at: 2022-10-07T22:04:44.244099.
+
+2022-10-07 22:04:44  INFO GameHost - Gold was changed in clan Оматикайя by user sMYiY (kUWBs@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 322.
+Clan's gold after: 845.
+User started to complete the task at: 2022-10-07T22:04:44.286285.
+Task was completed at: 2022-10-07T22:04:44.286405.
+
+2022-10-07 22:04:44  INFO GameHost - Gold was changed in clan Оматикайя by user OYjfm (XSlvn@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 845.
+Clan's gold after: 1008.
+User started to complete the task at: 2022-10-07T22:04:44.33478.
+Task was completed at: 2022-10-07T22:04:44.33488.
+
+2022-10-07 22:04:44  INFO GameHost - Gold was changed in clan Анурай by user eAPnD (aAeTI@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 0.
+Clan's gold after: 486.
+User started to complete the task at: 2022-10-07T22:04:44.373164.
+Task was completed at: 2022-10-07T22:04:44.373208.
+
+2022-10-07 22:04:44  INFO GameHost - Gold was changed in clan Анурай by user gWLuF (VregO@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 486.
+Clan's gold after: 1123.
+User started to complete the task at: 2022-10-07T22:04:44.418968.
+Task was completed at: 2022-10-07T22:04:44.419039.
+
+2022-10-07 22:04:44  INFO GameHost - Gold was changed in clan Оланги by user oWPFy (nAywd@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 0.
+Clan's gold after: 388.
+User started to complete the task at: 2022-10-07T22:04:44.46508.
+Task was completed at: 2022-10-07T22:04:44.465188.
+
+2022-10-07 22:04:44  INFO GameHost - Gold was changed in clan Оматикайя by user UasMI (VLReV@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 1008.
+Clan's gold after: 1536.
+User started to complete the task at: 2022-10-07T22:04:44.509993.
+Task was completed at: 2022-10-07T22:04:44.510103.
+
+2022-10-07 22:04:44  INFO GameHost - Gold was changed in clan Меткайина by user zrgpj (xRaCF@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 771.
+Clan's gold after: 1364.
+User started to complete the task at: 2022-10-07T22:04:44.555353.
+Task was completed at: 2022-10-07T22:04:44.555463.
+
+2022-10-07 22:04:44  INFO GameHost - Gold was changed in clan Меткайина by user WoVSL (cuSIl@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 248.
+Clan's gold after: 771.
+User started to complete the task at: 2022-10-07T22:04:44.598006.
+Task was completed at: 2022-10-07T22:04:44.598085.
+
+2022-10-07 22:04:45  INFO GameHost - Gold was changed in clan Оматикайя by user UpFGb (mydgJ@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 1536.
+Clan's gold after: 1816.
+User started to complete the task at: 2022-10-07T22:04:44.776367.
+Task was completed at: 2022-10-07T22:04:44.776475.
+
+2022-10-07 22:04:45  INFO GameHost - Gold was changed in clan Типани by user qEBKM (cgCrj@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 340.
+Clan's gold after: 445.
+User started to complete the task at: 2022-10-07T22:04:44.822005.
+Task was completed at: 2022-10-07T22:04:44.822111.
+
+2022-10-07 22:04:45  INFO GameHost - Gold was changed in clan Типани by user oMcnl (vOjUF@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 1130.
+Clan's gold after: 1907.
+User started to complete the task at: 2022-10-07T22:04:44.865622.
+Task was completed at: 2022-10-07T22:04:44.86632.
+
+2022-10-07 22:04:45  INFO GameHost - Gold was changed in clan Оланги by user SsjeQ (vTYWg@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 388.
+Clan's gold after: 850.
+User started to complete the task at: 2022-10-07T22:04:44.913792.
+Task was completed at: 2022-10-07T22:04:44.913912.
+
+2022-10-07 22:04:45  INFO GameHost - Gold was changed in clan Типани by user GayGJ (JUiJH@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 445.
+Clan's gold after: 1130.
+User started to complete the task at: 2022-10-07T22:04:44.966313.
+Task was completed at: 2022-10-07T22:04:44.966413.
+
+2022-10-07 22:04:45  INFO GameHost - Gold was changed in clan Меткайина by user DjQTA (rcyNE@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 1364.
+Clan's gold after: 1490.
+User started to complete the task at: 2022-10-07T22:04:45.010978.
+Task was completed at: 2022-10-07T22:04:45.011085.
+
+2022-10-07 22:04:45  INFO GameHost - Gold was changed in clan Типани by user KHTvR (ulGhr@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 1907.
+Clan's gold after: 2605.
+User started to complete the task at: 2022-10-07T22:04:45.070057.
+Task was completed at: 2022-10-07T22:04:45.070136.
+
+2022-10-07 22:04:45  INFO GameHost - Gold was changed in clan Оланги by user HSJVH (Gnxou@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 913.
+Clan's gold after: 971.
+User started to complete the task at: 2022-10-07T22:04:45.190331.
+Task was completed at: 2022-10-07T22:04:45.190421.
+
+2022-10-07 22:04:45  INFO GameHost - Gold was changed in clan Оланги by user nRKfa (iqZWT@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 850.
+Clan's gold after: 913.
+User started to complete the task at: 2022-10-07T22:04:45.247705.
+Task was completed at: 2022-10-07T22:04:45.247825.
+
+2022-10-07 22:04:45  INFO GameHost - Gold was changed in clan Типани by user rUmml (cRZDX@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 2605.
+Clan's gold after: 2759.
+User started to complete the task at: 2022-10-07T22:04:45.303352.
+Task was completed at: 2022-10-07T22:04:45.303479.
+
+2022-10-07 22:04:45  INFO GameHost - Gold was changed in clan Оланги by user pVCeE (ctAUh@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 971.
+Clan's gold after: 1095.
+User started to complete the task at: 2022-10-07T22:04:45.354955.
+Task was completed at: 2022-10-07T22:04:45.35499.
+
+2022-10-07 22:04:45  INFO GameHost - Gold was changed in clan Меткайина by user mibZE (emWZo@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 1878.
+Clan's gold after: 1923.
+User started to complete the task at: 2022-10-07T22:04:45.39849.
+Task was completed at: 2022-10-07T22:04:45.398521.
+
+2022-10-07 22:04:45  INFO GameHost - Gold was changed in clan Меткайина by user qASaj (FYnLP@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 1490.
+Clan's gold after: 1878.
+User started to complete the task at: 2022-10-07T22:04:45.444075.
+Task was completed at: 2022-10-07T22:04:45.444106.
+
+2022-10-07 22:04:45  INFO GameHost - Gold was changed in clan Тауками by user XpkYm (YKGxg@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 59.
+Clan's gold after: 786.
+User started to complete the task at: 2022-10-07T22:04:45.488511.
+Task was completed at: 2022-10-07T22:04:45.488544.
+
+2022-10-07 22:04:45  INFO GameHost - Gold was changed in clan Оматикайя by user rnHyt (Wofka@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 1816.
+Clan's gold after: 2064.
+User started to complete the task at: 2022-10-07T22:04:45.524691.
+Task was completed at: 2022-10-07T22:04:45.524769.
+
+2022-10-07 22:04:45  INFO GameHost - Gold was changed in clan Анурай by user tRbtz (zNSVb@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 1123.
+Clan's gold after: 1617.
+User started to complete the task at: 2022-10-07T22:04:45.56889.
+Task was completed at: 2022-10-07T22:04:45.568969.
+
+2022-10-07 22:04:45  INFO GameHost - Gold was changed in clan Типани by user roHHE (dDxAR@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 2759.
+Clan's gold after: 3529.
+User started to complete the task at: 2022-10-07T22:04:45.613632.
+Task was completed at: 2022-10-07T22:04:45.613698.
+
+2022-10-07 22:04:45  INFO GameHost - Gold was changed in clan Тауками by user BbxNz (fsYze@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 786.
+Clan's gold after: 1289.
+User started to complete the task at: 2022-10-07T22:04:45.65929.
+Task was completed at: 2022-10-07T22:04:45.65938.
+
+2022-10-07 22:04:45  INFO GameHost - Gold was changed in clan Оланги by user PrJTl (pqVug@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 1095.
+Clan's gold after: 1319.
+User started to complete the task at: 2022-10-07T22:04:45.814513.
+Task was completed at: 2022-10-07T22:04:45.814592.
+
+2022-10-07 22:04:46  INFO GameHost - Gold was changed in clan Меткайина by user myQdI (aNjlC@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 1923.
+Clan's gold after: 2086.
+User started to complete the task at: 2022-10-07T22:04:45.870514.
+Task was completed at: 2022-10-07T22:04:45.870587.
+
+2022-10-07 22:04:46  INFO GameHost - Gold was changed in clan Оланги by user gFcKv (wQlAo@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 1319.
+Clan's gold after: 1651.
+User started to complete the task at: 2022-10-07T22:04:45.917964.
+Task was completed at: 2022-10-07T22:04:45.918071.
+
+2022-10-07 22:04:46  INFO GameHost - Gold was changed in clan Типани by user HNmgI (iipCX@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 3529.
+Clan's gold after: 4052.
+User started to complete the task at: 2022-10-07T22:04:45.957604.
+Task was completed at: 2022-10-07T22:04:45.957667.
+
+2022-10-07 22:04:46  INFO GameHost - Gold was changed in clan Оматикайя by user CoDbJ (YPccB@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 2064.
+Clan's gold after: 2879.
+User started to complete the task at: 2022-10-07T22:04:46.003486.
+Task was completed at: 2022-10-07T22:04:46.003579.
+
+2022-10-07 22:04:46  INFO GameHost - Gold was changed in clan Оматикайя by user vqkiH (UEzuz@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 2879.
+Clan's gold after: 3399.
+User started to complete the task at: 2022-10-07T22:04:46.057388.
+Task was completed at: 2022-10-07T22:04:46.057477.
+
+2022-10-07 22:04:46  INFO GameHost - Gold was changed in clan Анурай by user QxSgT (GkrUl@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 1617.
+Clan's gold after: 2120.
+User started to complete the task at: 2022-10-07T22:04:46.131669.
+Task was completed at: 2022-10-07T22:04:46.13176.
+
+2022-10-07 22:04:46  INFO GameHost - Gold was changed in clan Анурай by user mAyEk (frhPw@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 2120.
+Clan's gold after: 2344.
+User started to complete the task at: 2022-10-07T22:04:46.195009.
+Task was completed at: 2022-10-07T22:04:46.195092.
+
+2022-10-07 22:04:46  INFO GameHost - Gold was changed in clan Меткайина by user QVKVT (cvYMe@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 2086.
+Clan's gold after: 2632.
+User started to complete the task at: 2022-10-07T22:04:46.27168.
+Task was completed at: 2022-10-07T22:04:46.271745.
+
+2022-10-07 22:04:46  INFO GameHost - Gold was changed in clan Меткайина by user MiHAL (WOKsM@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 2632.
+Clan's gold after: 3448.
+User started to complete the task at: 2022-10-07T22:04:46.314791.
+Task was completed at: 2022-10-07T22:04:46.31489.
+
+2022-10-07 22:04:46  INFO GameHost - Gold was changed in clan Анурай by user tNHCo (BhGXg@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 2344.
+Clan's gold after: 2923.
+User started to complete the task at: 2022-10-07T22:04:46.360039.
+Task was completed at: 2022-10-07T22:04:46.360134.
+
+2022-10-07 22:04:46  INFO GameHost - Gold was changed in clan Меткайина by user lTGtu (tFOrD@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 3448.
+Clan's gold after: 4263.
+User started to complete the task at: 2022-10-07T22:04:46.401896.
+Task was completed at: 2022-10-07T22:04:46.401943.
+
+2022-10-07 22:04:46  INFO GameHost - Gold was changed in clan Анурай by user opDXp (XrRiY@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 2923.
+Clan's gold after: 3147.
+User started to complete the task at: 2022-10-07T22:04:46.447807.
+Task was completed at: 2022-10-07T22:04:46.447866.
+
+2022-10-07 22:04:46  INFO GameHost - Gold was changed in clan Тайранги by user EGlyj (sAHjn@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 0.
+Clan's gold after: 523.
+User started to complete the task at: 2022-10-07T22:04:46.491711.
+Task was completed at: 2022-10-07T22:04:46.491746.
+
+2022-10-07 22:04:46  INFO GameHost - Gold was changed in clan Тауками by user FQxbk (VPsdJ@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 1289.
+Clan's gold after: 1587.
+User started to complete the task at: 2022-10-07T22:04:46.535853.
+Task was completed at: 2022-10-07T22:04:46.535879.
+
+2022-10-07 22:04:46  INFO GameHost - Gold was changed in clan Оланги by user PwUmj (aDtXM@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 1651.
+Clan's gold after: 1805.
+User started to complete the task at: 2022-10-07T22:04:46.583656.
+Task was completed at: 2022-10-07T22:04:46.583745.
+
+2022-10-07 22:04:46  INFO GameHost - Gold was changed in clan Тайранги by user hXjkx (TMLJy@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 523.
+Clan's gold after: 1098.
+User started to complete the task at: 2022-10-07T22:04:46.628387.
+Task was completed at: 2022-10-07T22:04:46.628476.
+
+2022-10-07 22:04:46  INFO GameHost - Gold was changed in clan Оланги by user pRTAQ (rBkiA@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 1805.
+Clan's gold after: 2490.
+User started to complete the task at: 2022-10-07T22:04:46.672736.
+Task was completed at: 2022-10-07T22:04:46.672827.
+
+2022-10-07 22:04:46  INFO GameHost - Gold was changed in clan Тайранги by user HyFXu (ceuxt@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 1098.
+Clan's gold after: 1252.
+User started to complete the task at: 2022-10-07T22:04:46.718744.
+Task was completed at: 2022-10-07T22:04:46.718832.
+
+2022-10-07 22:04:47  INFO GameHost - Gold was changed in clan Оланги by user KLXVv (MQTBT@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 2490.
+Clan's gold after: 3262.
+User started to complete the task at: 2022-10-07T22:04:46.761355.
+Task was completed at: 2022-10-07T22:04:46.761424.
+
+2022-10-07 22:04:47  INFO GameHost - Gold was changed in clan Типани by user XrYOA (fNxdv@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 4052.
+Clan's gold after: 4400.
+User started to complete the task at: 2022-10-07T22:04:46.924469.
+Task was completed at: 2022-10-07T22:04:46.924594.
+
+2022-10-07 22:04:47  INFO GameHost - Gold was changed in clan Тайранги by user CpYST (jmfyE@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 2016.
+Clan's gold after: 2555.
+User started to complete the task at: 2022-10-07T22:04:46.985209.
+Task was completed at: 2022-10-07T22:04:46.985298.
+
+2022-10-07 22:04:47  INFO GameHost - Gold was changed in clan Оланги by user pzvwE (PmOTU@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 3262.
+Clan's gold after: 3602.
+User started to complete the task at: 2022-10-07T22:04:47.02977.
+Task was completed at: 2022-10-07T22:04:47.029861.
+
+2022-10-07 22:04:47  INFO GameHost - Gold was changed in clan Тайранги by user VUjpf (UWMVu@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 1252.
+Clan's gold after: 2016.
+User started to complete the task at: 2022-10-07T22:04:47.134796.
+Task was completed at: 2022-10-07T22:04:47.134958.
+
+2022-10-07 22:04:47  INFO GameHost - Gold was changed in clan Меткайина by user BETiA (YbdXg@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 4263.
+Clan's gold after: 4856.
+User started to complete the task at: 2022-10-07T22:04:47.2071.
+Task was completed at: 2022-10-07T22:04:47.207181.
+
+2022-10-07 22:04:47  INFO GameHost - Gold was changed in clan Анурай by user DOhSq (ihfGI@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 3147.
+Clan's gold after: 3888.
+User started to complete the task at: 2022-10-07T22:04:47.252714.
+Task was completed at: 2022-10-07T22:04:47.252808.
+
+2022-10-07 22:04:48  INFO GameHost - Gold was changed in clan Анурай by user vtBXZ (GsyJd@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 4136.
+Clan's gold after: 4260.
+User started to complete the task at: 2022-10-07T22:04:47.688659.
+Task was completed at: 2022-10-07T22:04:47.688789.
+
+2022-10-07 22:04:48  INFO GameHost - Gold was changed in clan Анурай by user pEfVQ (kMSdR@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 3888.
+Clan's gold after: 4136.
+User started to complete the task at: 2022-10-07T22:04:47.853129.
+Task was completed at: 2022-10-07T22:04:47.853221.
+
+2022-10-07 22:04:48  INFO GameHost - Gold was changed in clan Тауками by user dZHLP (sidYW@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 1587.
+Clan's gold after: 2158.
+User started to complete the task at: 2022-10-07T22:04:47.897319.
+Task was completed at: 2022-10-07T22:04:47.897406.
+
+2022-10-07 22:04:48  INFO GameHost - Gold was changed in clan Меткайина by user XhhZK (iYZjj@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 4856.
+Clan's gold after: 5239.
+User started to complete the task at: 2022-10-07T22:04:48.102278.
+Task was completed at: 2022-10-07T22:04:48.102412.
+
+2022-10-07 22:04:48  INFO GameHost - Gold was changed in clan Оланги by user CMeKt (EIaqC@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 3602.
+Clan's gold after: 3756.
+User started to complete the task at: 2022-10-07T22:04:48.188422.
+Task was completed at: 2022-10-07T22:04:48.188488.
+
+2022-10-07 22:04:48  INFO GameHost - Gold was changed in clan Типани by user FhZAy (EbWYw@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 4400.
+Clan's gold after: 5203.
+User started to complete the task at: 2022-10-07T22:04:48.254545.
+Task was completed at: 2022-10-07T22:04:48.254594.
+
+2022-10-07 22:04:48  INFO GameHost - Gold was changed in clan Оланги by user JnbTQ (kAWLx@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 3756.
+Clan's gold after: 4509.
+User started to complete the task at: 2022-10-07T22:04:48.298182.
+Task was completed at: 2022-10-07T22:04:48.298352.
+
+2022-10-07 22:04:48  INFO GameHost - Gold was changed in clan Тайранги by user FIdsV (hHVnZ@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 2555.
+Clan's gold after: 2943.
+User started to complete the task at: 2022-10-07T22:04:48.342097.
+Task was completed at: 2022-10-07T22:04:48.342137.
+
+2022-10-07 22:04:48  INFO GameHost - Gold was changed in clan Тайранги by user nLTbb (PpQUH@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 2943.
+Clan's gold after: 3223.
+User started to complete the task at: 2022-10-07T22:04:48.387625.
+Task was completed at: 2022-10-07T22:04:48.387667.
+
+2022-10-07 22:04:48  INFO GameHost - Gold was changed in clan Меткайина by user YTTDd (yworj@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 5239.
+Clan's gold after: 5393.
+User started to complete the task at: 2022-10-07T22:04:48.433013.
+Task was completed at: 2022-10-07T22:04:48.433074.
+
+2022-10-07 22:04:48  INFO GameHost - Gold was changed in clan Меткайина by user gQmaQ (soeds@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 5393.
+Clan's gold after: 6208.
+User started to complete the task at: 2022-10-07T22:04:48.475671.
+Task was completed at: 2022-10-07T22:04:48.475705.
+
+2022-10-07 22:04:48  INFO GameHost - Gold was changed in clan Оматикайя by user Wciqh (guoeF@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 3517.
+Clan's gold after: 3563.
+User started to complete the task at: 2022-10-07T22:04:48.52165.
+Task was completed at: 2022-10-07T22:04:48.521692.
+
+2022-10-07 22:04:48  INFO GameHost - Gold was changed in clan Оматикайя by user ullIp (zZLzr@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 3399.
+Clan's gold after: 3517.
+User started to complete the task at: 2022-10-07T22:04:48.566678.
+Task was completed at: 2022-10-07T22:04:48.566721.
+
+2022-10-07 22:04:48  INFO GameHost - Gold was changed in clan Меткайина by user pWCQN (XrieA@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 6208.
+Clan's gold after: 6912.
+User started to complete the task at: 2022-10-07T22:04:48.610182.
+Task was completed at: 2022-10-07T22:04:48.610271.
+
+2022-10-07 22:04:48  INFO GameHost - Gold was changed in clan Оланги by user hpuni (hqpjL@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 4509.
+Clan's gold after: 5032.
+User started to complete the task at: 2022-10-07T22:04:48.655473.
+Task was completed at: 2022-10-07T22:04:48.655514.
+
+2022-10-07 22:04:48  INFO GameHost - Gold was changed in clan Тайранги by user rTrrX (YcJVV@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 3223.
+Clan's gold after: 3709.
+User started to complete the task at: 2022-10-07T22:04:48.700258.
+Task was completed at: 2022-10-07T22:04:48.700316.
+
+2022-10-07 22:04:48  INFO GameHost - Gold was changed in clan Анурай by user zpHyj (OIFsX@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 4260.
+Clan's gold after: 4853.
+User started to complete the task at: 2022-10-07T22:04:48.744462.
+Task was completed at: 2022-10-07T22:04:48.744504.
+
+2022-10-07 22:04:48  INFO GameHost - Gold was changed in clan Тайранги by user gOQVX (hRPja@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 3709.
+Clan's gold after: 4232.
+User started to complete the task at: 2022-10-07T22:04:48.788382.
+Task was completed at: 2022-10-07T22:04:48.788459.
+
+2022-10-07 22:04:48  INFO GameHost - Gold was changed in clan Меткайина by user sMuAx (pfEPQ@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 6912.
+Clan's gold after: 7560.
+User started to complete the task at: 2022-10-07T22:04:48.83369.
+Task was completed at: 2022-10-07T22:04:48.833731.
+
+2022-10-07 22:04:49  INFO GameHost - Gold was changed in clan Оланги by user JAHSt (tlrpg@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 5032.
+Clan's gold after: 5077.
+User started to complete the task at: 2022-10-07T22:04:48.877407.
+Task was completed at: 2022-10-07T22:04:48.877483.
+
+2022-10-07 22:04:49  INFO GameHost - Gold was changed in clan Анурай by user vHNoA (LHPID@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 4853.
+Clan's gold after: 5641.
+User started to complete the task at: 2022-10-07T22:04:48.922087.
+Task was completed at: 2022-10-07T22:04:48.922129.
+
+2022-10-07 22:04:49  INFO GameHost - Gold was changed in clan Типани by user gTDQX (hvdYf@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 5888.
+Clan's gold after: 6344.
+User started to complete the task at: 2022-10-07T22:04:48.967221.
+Task was completed at: 2022-10-07T22:04:48.967278.
+
+2022-10-07 22:04:49  INFO GameHost - Gold was changed in clan Типани by user eaEzu (DbvVW@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 5203.
+Clan's gold after: 5888.
+User started to complete the task at: 2022-10-07T22:04:49.136078.
+Task was completed at: 2022-10-07T22:04:49.136136.
+
+2022-10-07 22:04:49  INFO GameHost - Gold was changed in clan Типани by user wofpg (qkbKC@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 6344.
+Clan's gold after: 6390.
+User started to complete the task at: 2022-10-07T22:04:49.243988.
+Task was completed at: 2022-10-07T22:04:49.244047.
+
+2022-10-07 22:04:49  INFO GameHost - Gold was changed in clan Оматикайя by user ExchR (EszlB@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 3563.
+Clan's gold after: 3958.
+User started to complete the task at: 2022-10-07T22:04:49.304449.
+Task was completed at: 2022-10-07T22:04:49.304511.
+
+2022-10-07 22:04:49  INFO GameHost - Gold was changed in clan Тауками by user iTXVe (Fbeip@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 2158.
+Clan's gold after: 2652.
+User started to complete the task at: 2022-10-07T22:04:49.348145.
+Task was completed at: 2022-10-07T22:04:49.348203.
+
+2022-10-07 22:04:49  INFO GameHost - Gold was changed in clan Типани by user LFztO (dClIc@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 6390.
+Clan's gold after: 6614.
+User started to complete the task at: 2022-10-07T22:04:49.392654.
+Task was completed at: 2022-10-07T22:04:49.392696.
+
+2022-10-07 22:04:49  INFO GameHost - Gold was changed in clan Анурай by user IlefB (aczJI@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 5641.
+Clan's gold after: 6169.
+User started to complete the task at: 2022-10-07T22:04:49.437868.
+Task was completed at: 2022-10-07T22:04:49.437988.
+
+2022-10-07 22:04:49  INFO GameHost - Gold was changed in clan Тайранги by user lGsqe (MEYhQ@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 4232.
+Clan's gold after: 4291.
+User started to complete the task at: 2022-10-07T22:04:49.48183.
+Task was completed at: 2022-10-07T22:04:49.481891.
+
+2022-10-07 22:04:49  INFO GameHost - Gold was changed in clan Тайранги by user RQQNX (MTCmF@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 4291.
+Clan's gold after: 4452.
+User started to complete the task at: 2022-10-07T22:04:49.526306.
+Task was completed at: 2022-10-07T22:04:49.526417.
+
+2022-10-07 22:04:49  INFO GameHost - Gold was changed in clan Типани by user uomkv (HQYkV@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 6614.
+Clan's gold after: 7153.
+User started to complete the task at: 2022-10-07T22:04:49.57112.
+Task was completed at: 2022-10-07T22:04:49.571214.
+
+2022-10-07 22:04:49  INFO GameHost - Gold was changed in clan Тауками by user DPyPu (qaaYL@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 2652.
+Clan's gold after: 2964.
+User started to complete the task at: 2022-10-07T22:04:49.616388.
+Task was completed at: 2022-10-07T22:04:49.616445.
+
+2022-10-07 22:04:49  INFO GameHost - Gold was changed in clan Типани by user CldzY (oOcIl@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 7153.
+Clan's gold after: 7615.
+User started to complete the task at: 2022-10-07T22:04:49.660713.
+Task was completed at: 2022-10-07T22:04:49.660767.
+
+2022-10-07 22:04:49  INFO GameHost - Gold was changed in clan Типани by user dOnMo (MlkvC@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 7615.
+Clan's gold after: 7739.
+User started to complete the task at: 2022-10-07T22:04:49.706023.
+Task was completed at: 2022-10-07T22:04:49.706071.
+
+2022-10-07 22:04:49  INFO GameHost - Gold was changed in clan Анурай by user qfjLp (igUQH@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 6169.
+Clan's gold after: 6509.
+User started to complete the task at: 2022-10-07T22:04:49.748688.
+Task was completed at: 2022-10-07T22:04:49.748725.
+
+2022-10-07 22:04:49  INFO GameHost - Gold was changed in clan Анурай by user VTfdK (dLIFn@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 6509.
+Clan's gold after: 6904.
+User started to complete the task at: 2022-10-07T22:04:49.794081.
+Task was completed at: 2022-10-07T22:04:49.794129.
+
+2022-10-07 22:04:49  INFO GameHost - Gold was changed in clan Оланги by user HOFCR (MuQFt@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 5077.
+Clan's gold after: 5122.
+User started to complete the task at: 2022-10-07T22:04:49.838323.
+Task was completed at: 2022-10-07T22:04:49.838361.
+
+2022-10-07 22:04:50  INFO GameHost - Gold was changed in clan Оланги by user EfXTw (eJjho@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 5122.
+Clan's gold after: 5584.
+User started to complete the task at: 2022-10-07T22:04:49.883487.
+Task was completed at: 2022-10-07T22:04:49.883536.
+
+2022-10-07 22:04:50  INFO GameHost - Gold was changed in clan Тайранги by user huXrO (lILyx@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 4452.
+Clan's gold after: 4792.
+User started to complete the task at: 2022-10-07T22:04:49.927896.
+Task was completed at: 2022-10-07T22:04:49.927945.
+
+2022-10-07 22:04:50  INFO GameHost - Gold was changed in clan Типани by user Hpvpn (kfXgO@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 7739.
+Clan's gold after: 8201.
+User started to complete the task at: 2022-10-07T22:04:49.971975.
+Task was completed at: 2022-10-07T22:04:49.972025.
+
+2022-10-07 22:04:50  INFO GameHost - Gold was changed in clan Оматикайя by user wPPqA (gCwaE@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 3958.
+Clan's gold after: 4736.
+User started to complete the task at: 2022-10-07T22:04:50.017515.
+Task was completed at: 2022-10-07T22:04:50.017571.
+
+2022-10-07 22:04:50  INFO GameHost - Gold was changed in clan Оланги by user vJWZx (oIlWg@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 5584.
+Clan's gold after: 6112.
+User started to complete the task at: 2022-10-07T22:04:50.11209.
+Task was completed at: 2022-10-07T22:04:50.112139.
+
+2022-10-07 22:04:50  INFO GameHost - Gold was changed in clan Анурай by user inens (JozNg@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 6904.
+Clan's gold after: 7432.
+User started to complete the task at: 2022-10-07T22:04:50.307286.
+Task was completed at: 2022-10-07T22:04:50.307344.
+
+2022-10-07 22:04:50  INFO GameHost - Gold was changed in clan Тауками by user IKghK (gvgyu@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 2964.
+Clan's gold after: 3022.
+User started to complete the task at: 2022-10-07T22:04:50.351493.
+Task was completed at: 2022-10-07T22:04:50.351549.
+
+2022-10-07 22:04:50  INFO GameHost - Gold was changed in clan Оланги by user WWGUq (nJSUA@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 6112.
+Clan's gold after: 6655.
+User started to complete the task at: 2022-10-07T22:04:50.396298.
+Task was completed at: 2022-10-07T22:04:50.396335.
+
+2022-10-07 22:04:50  INFO GameHost - Gold was changed in clan Тайранги by user GwBqC (JcuPW@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 4792.
+Clan's gold after: 5104.
+User started to complete the task at: 2022-10-07T22:04:50.440299.
+Task was completed at: 2022-10-07T22:04:50.440335.
+
+2022-10-07 22:04:50  INFO GameHost - Gold was changed in clan Анурай by user nYjBP (hteak@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 7432.
+Clan's gold after: 7855.
+User started to complete the task at: 2022-10-07T22:04:50.485736.
+Task was completed at: 2022-10-07T22:04:50.485779.
+
+2022-10-07 22:04:50  INFO GameHost - Gold was changed in clan Тайранги by user YPeHa (vrFmB@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 5104.
+Clan's gold after: 5624.
+User started to complete the task at: 2022-10-07T22:04:50.529668.
+Task was completed at: 2022-10-07T22:04:50.529705.
+
+2022-10-07 22:04:50  INFO GameHost - Gold was changed in clan Анурай by user gBoug (UDUmm@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 7855.
+Clan's gold after: 8553.
+User started to complete the task at: 2022-10-07T22:04:50.57409.
+Task was completed at: 2022-10-07T22:04:50.574126.
+
+2022-10-07 22:04:50  INFO GameHost - Gold was changed in clan Оматикайя by user sbcsZ (wTQjJ@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 5014.
+Clan's gold after: 5275.
+User started to complete the task at: 2022-10-07T22:04:50.619583.
+Task was completed at: 2022-10-07T22:04:50.619629.
+
+2022-10-07 22:04:50  INFO GameHost - Gold was changed in clan Оматикайя by user wEOUf (eavzY@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 4736.
+Clan's gold after: 5014.
+User started to complete the task at: 2022-10-07T22:04:50.663445.
+Task was completed at: 2022-10-07T22:04:50.663495.
+
+2022-10-07 22:04:50  INFO GameHost - Gold was changed in clan Оланги by user aPEgV (lETWp@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 6655.
+Clan's gold after: 7330.
+User started to complete the task at: 2022-10-07T22:04:50.708538.
+Task was completed at: 2022-10-07T22:04:50.708586.
+
+2022-10-07 22:04:50  INFO GameHost - Gold was changed in clan Меткайина by user DhcVN (FcJIm@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 7560.
+Clan's gold after: 7714.
+User started to complete the task at: 2022-10-07T22:04:50.753306.
+Task was completed at: 2022-10-07T22:04:50.753342.
+
+2022-10-07 22:04:50  INFO GameHost - Gold was changed in clan Оматикайя by user izZkP (PqCaN@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 5331.
+Clan's gold after: 5612.
+User started to complete the task at: 2022-10-07T22:04:50.797045.
+Task was completed at: 2022-10-07T22:04:50.797098.
+
+2022-10-07 22:04:50  INFO GameHost - Gold was changed in clan Оматикайя by user zCBMm (RKrYa@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 5275.
+Clan's gold after: 5331.
+User started to complete the task at: 2022-10-07T22:04:50.842052.
+Task was completed at: 2022-10-07T22:04:50.842109.
+
+2022-10-07 22:04:51  INFO GameHost - Gold was changed in clan Типани by user KTRmN (dfVUI@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 8201.
+Clan's gold after: 8246.
+User started to complete the task at: 2022-10-07T22:04:50.887008.
+Task was completed at: 2022-10-07T22:04:50.887054.
+
+2022-10-07 22:04:51  INFO GameHost - Gold was changed in clan Оматикайя by user dKoCH (OmXlM@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 5612.
+Clan's gold after: 5688.
+User started to complete the task at: 2022-10-07T22:04:50.929763.
+Task was completed at: 2022-10-07T22:04:50.92978.
+
+2022-10-07 22:04:51  INFO GameHost - Gold was changed in clan Тауками by user BGpny (eFxlE@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 3022.
+Clan's gold after: 3659.
+User started to complete the task at: 2022-10-07T22:04:50.97598.
+Task was completed at: 2022-10-07T22:04:50.976028.
+
+2022-10-07 22:04:51  INFO GameHost - Gold was changed in clan Оланги by user HaGZO (jyeDI@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 7330.
+Clan's gold after: 7628.
+User started to complete the task at: 2022-10-07T22:04:51.020633.
+Task was completed at: 2022-10-07T22:04:51.020669.
+
+2022-10-07 22:04:51  INFO GameHost - Gold was changed in clan Оматикайя by user AZMoe (MXPEb@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 5815.
+Clan's gold after: 6631.
+User started to complete the task at: 2022-10-07T22:04:51.122174.
+Task was completed at: 2022-10-07T22:04:51.123297.
+
+2022-10-07 22:04:51  INFO GameHost - Gold was changed in clan Оматикайя by user kYPxH (gXEgl@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 5688.
+Clan's gold after: 5815.
+User started to complete the task at: 2022-10-07T22:04:51.187902.
+Task was completed at: 2022-10-07T22:04:51.18795.
+
+2022-10-07 22:04:51  INFO GameHost - Gold was changed in clan Оланги by user wGPro (SDYFt@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 7628.
+Clan's gold after: 7908.
+User started to complete the task at: 2022-10-07T22:04:51.346379.
+Task was completed at: 2022-10-07T22:04:51.346415.
+
+2022-10-07 22:04:51  INFO GameHost - Gold was changed in clan Анурай by user oYdPr (zBzMg@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 8553.
+Clan's gold after: 8967.
+User started to complete the task at: 2022-10-07T22:04:51.445635.
+Task was completed at: 2022-10-07T22:04:51.445691.
+
+2022-10-07 22:04:51  INFO GameHost - Gold was changed in clan Типани by user eASLG (hqudH@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 8246.
+Clan's gold after: 9062.
+User started to complete the task at: 2022-10-07T22:04:51.486874.
+Task was completed at: 2022-10-07T22:04:51.486893.
+
+2022-10-07 22:04:51  INFO GameHost - Gold was changed in clan Оматикайя by user atLKe (TiBUr@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 6631.
+Clan's gold after: 7358.
+User started to complete the task at: 2022-10-07T22:04:51.533649.
+Task was completed at: 2022-10-07T22:04:51.533694.
+
+2022-10-07 22:04:51  INFO GameHost - Gold was changed in clan Анурай by user xGQjC (xujFr@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 8967.
+Clan's gold after: 9447.
+User started to complete the task at: 2022-10-07T22:04:51.578152.
+Task was completed at: 2022-10-07T22:04:51.578243.
+
+2022-10-07 22:04:51  INFO GameHost - Gold was changed in clan Тайранги by user WCRjY (DBDgi@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 5624.
+Clan's gold after: 5848.
+User started to complete the task at: 2022-10-07T22:04:51.623352.
+Task was completed at: 2022-10-07T22:04:51.623387.
+
+2022-10-07 22:04:51  INFO GameHost - Gold was changed in clan Типани by user RGXLp (fonBS@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 9323.
+Clan's gold after: 9948.
+User started to complete the task at: 2022-10-07T22:04:51.667405.
+Task was completed at: 2022-10-07T22:04:51.667473.
+
+2022-10-07 22:04:51  INFO GameHost - Gold was changed in clan Типани by user ADnlJ (edJsm@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 9062.
+Clan's gold after: 9323.
+User started to complete the task at: 2022-10-07T22:04:51.713393.
+Task was completed at: 2022-10-07T22:04:51.713436.
+
+2022-10-07 22:04:51  INFO GameHost - Gold was changed in clan Меткайина by user GMGlk (jyiZV@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 7714.
+Clan's gold after: 7875.
+User started to complete the task at: 2022-10-07T22:04:51.767789.
+Task was completed at: 2022-10-07T22:04:51.767823.
+
+2022-10-07 22:04:51  INFO GameHost - Gold was changed in clan Оматикайя by user NHJRa (dXdUh@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 7358.
+Clan's gold after: 8043.
+User started to complete the task at: 2022-10-07T22:04:51.812337.
+Task was completed at: 2022-10-07T22:04:51.812399.
+
+2022-10-07 22:04:52  INFO GameHost - Gold was changed in clan Анурай by user lybeO (fhPYe@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 9447.
+Clan's gold after: 9970.
+User started to complete the task at: 2022-10-07T22:04:51.857746.
+Task was completed at: 2022-10-07T22:04:51.857791.
+
+2022-10-07 22:04:52  INFO GameHost - Gold was changed in clan Меткайина by user RifSb (sjAkP@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 7875.
+Clan's gold after: 8153.
+User started to complete the task at: 2022-10-07T22:04:51.916684.
+Task was completed at: 2022-10-07T22:04:51.917218.
+
+2022-10-07 22:04:52  INFO GameHost - Gold was changed in clan Анурай by user UdfpN (NbTIp@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 9970.
+Clan's gold after: 10088.
+User started to complete the task at: 2022-10-07T22:04:51.966763.
+Task was completed at: 2022-10-07T22:04:51.966779.
+
+2022-10-07 22:04:52  INFO GameHost - Gold was changed in clan Тауками by user mKsyy (XUFEt@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 3659.
+Clan's gold after: 3704.
+User started to complete the task at: 2022-10-07T22:04:52.014795.
+Task was completed at: 2022-10-07T22:04:52.014825.
+
+2022-10-07 22:04:52  INFO GameHost - Gold was changed in clan Меткайина by user nMSpv (qFvXg@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 8153.
+Clan's gold after: 8211.
+User started to complete the task at: 2022-10-07T22:04:52.070271.
+Task was completed at: 2022-10-07T22:04:52.070302.
+
+2022-10-07 22:04:52  INFO GameHost - Gold was changed in clan Оланги by user YsttR (DEesC@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 7908.
+Clan's gold after: 8523.
+User started to complete the task at: 2022-10-07T22:04:52.177903.
+Task was completed at: 2022-10-07T22:04:52.177912.
+
+2022-10-07 22:04:52  INFO GameHost - Gold was changed in clan Оматикайя by user HJyEi (amGSW@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 8043.
+Clan's gold after: 8831.
+User started to complete the task at: 2022-10-07T22:04:52.213547.
+Task was completed at: 2022-10-07T22:04:52.213559.
+
+2022-10-07 22:04:52  INFO GameHost - Gold was changed in clan Тауками by user pLdER (fmtYW@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 3704.
+Clan's gold after: 4341.
+User started to complete the task at: 2022-10-07T22:04:52.258235.
+Task was completed at: 2022-10-07T22:04:52.258247.
+
+2022-10-07 22:04:52  INFO GameHost - Gold was changed in clan Тайранги by user zvTAs (SpkaI@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 5848.
+Clan's gold after: 6351.
+User started to complete the task at: 2022-10-07T22:04:52.302881.
+Task was completed at: 2022-10-07T22:04:52.302893.
+
+2022-10-07 22:04:52  INFO GameHost - Gold was changed in clan Оматикайя by user Eugbp (WWUrO@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 8831.
+Clan's gold after: 9027.
+User started to complete the task at: 2022-10-07T22:04:52.483661.
+Task was completed at: 2022-10-07T22:04:52.483694.
+
+2022-10-07 22:04:52  INFO GameHost - Gold was changed in clan Тауками by user WkHcP (NEtHc@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 4341.
+Clan's gold after: 5109.
+User started to complete the task at: 2022-10-07T22:04:52.528201.
+Task was completed at: 2022-10-07T22:04:52.528225.
+
+2022-10-07 22:04:52  INFO GameHost - Gold was changed in clan Анурай by user osKPQ (gPdTw@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 10088.
+Clan's gold after: 10611.
+User started to complete the task at: 2022-10-07T22:04:52.570265.
+Task was completed at: 2022-10-07T22:04:52.570276.
+
+2022-10-07 22:04:52  INFO GameHost - Gold was changed in clan Тайранги by user xkggV (hGulr@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 6351.
+Clan's gold after: 6739.
+User started to complete the task at: 2022-10-07T22:04:52.615372.
+Task was completed at: 2022-10-07T22:04:52.615384.
+
+2022-10-07 22:04:52  INFO GameHost - Gold was changed in clan Оланги by user HbrCz (mLeGB@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 8523.
+Clan's gold after: 8821.
+User started to complete the task at: 2022-10-07T22:04:52.73772.
+Task was completed at: 2022-10-07T22:04:52.737737.
+
+2022-10-07 22:04:53  INFO GameHost - Gold was changed in clan Тауками by user dZSOL (KLdVB@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 5109.
+Clan's gold after: 5724.
+User started to complete the task at: 2022-10-07T22:04:52.784898.
+Task was completed at: 2022-10-07T22:04:52.784923.
+
+2022-10-07 22:04:53  INFO GameHost - Gold was changed in clan Тайранги by user tqDuS (Twsug@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 6739.
+Clan's gold after: 7503.
+User started to complete the task at: 2022-10-07T22:04:52.829211.
+Task was completed at: 2022-10-07T22:04:52.829235.
+
+2022-10-07 22:04:53  INFO GameHost - Gold was changed in clan Тайранги by user VElBH (IyOIC@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 7503.
+Clan's gold after: 7989.
+User started to complete the task at: 2022-10-07T22:04:52.873847.
+Task was completed at: 2022-10-07T22:04:52.873871.
+
+2022-10-07 22:04:53  INFO GameHost - Gold was changed in clan Меткайина by user wAEOP (VSOnS@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 8211.
+Clan's gold after: 8705.
+User started to complete the task at: 2022-10-07T22:04:53.102666.
+Task was completed at: 2022-10-07T22:04:53.102689.
+
+2022-10-07 22:04:53  INFO GameHost - Gold was changed in clan Типани by user XXfFD (HZhOg@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 9948.
+Clan's gold after: 10771.
+User started to complete the task at: 2022-10-07T22:04:53.256588.
+Task was completed at: 2022-10-07T22:04:53.256624.
+
+2022-10-07 22:04:53  INFO GameHost - Gold was changed in clan Оматикайя by user wfhuD (FOlOA@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 9027.
+Clan's gold after: 9151.
+User started to complete the task at: 2022-10-07T22:04:53.330308.
+Task was completed at: 2022-10-07T22:04:53.330333.
+
+2022-10-07 22:04:53  INFO GameHost - Gold was changed in clan Анурай by user NEfvx (lYyjD@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 11259.
+Clan's gold after: 11647.
+User started to complete the task at: 2022-10-07T22:04:53.438753.
+Task was completed at: 2022-10-07T22:04:53.438778.
+
+2022-10-07 22:04:53  INFO GameHost - Gold was changed in clan Анурай by user mIDHc (uZioj@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 10611.
+Clan's gold after: 11259.
+User started to complete the task at: 2022-10-07T22:04:53.630608.
+Task was completed at: 2022-10-07T22:04:53.630632.
+
+2022-10-07 22:04:53  INFO GameHost - Gold was changed in clan Тайранги by user noGSv (HtmyZ@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 7989.
+Clan's gold after: 8500.
+User started to complete the task at: 2022-10-07T22:04:53.675658.
+Task was completed at: 2022-10-07T22:04:53.675693.
+
+2022-10-07 22:04:53  INFO GameHost - Gold was changed in clan Тауками by user rJWsj (eUNLa@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 5724.
+Clan's gold after: 5848.
+User started to complete the task at: 2022-10-07T22:04:53.720004.
+Task was completed at: 2022-10-07T22:04:53.720029.
+
+2022-10-07 22:04:54  INFO GameHost - Gold was changed in clan Меткайина by user oztTD (UUwro@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 8705.
+Clan's gold after: 9342.
+User started to complete the task at: 2022-10-07T22:04:53.764959.
+Task was completed at: 2022-10-07T22:04:53.764993.
+
+2022-10-07 22:04:54  INFO GameHost - Gold was changed in clan Типани by user ynVED (fGSjv@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 10771.
+Clan's gold after: 11282.
+User started to complete the task at: 2022-10-07T22:04:53.808809.
+Task was completed at: 2022-10-07T22:04:53.808843.
+
+2022-10-07 22:04:54  INFO GameHost - Gold was changed in clan Оланги by user XBzGJ (UFoyW@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 8821.
+Clan's gold after: 9537.
+User started to complete the task at: 2022-10-07T22:04:53.967703.
+Task was completed at: 2022-10-07T22:04:53.967734.
+
+2022-10-07 22:04:54  INFO GameHost - Gold was changed in clan Тауками by user rGhWo (tMcOW@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 5848.
+Clan's gold after: 5894.
+User started to complete the task at: 2022-10-07T22:04:54.017838.
+Task was completed at: 2022-10-07T22:04:54.017846.
+
+2022-10-07 22:04:54  INFO GameHost - Gold was changed in clan Оматикайя by user ANgva (MUfsi@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 9151.
+Clan's gold after: 9348.
+User started to complete the task at: 2022-10-07T22:04:54.125197.
+Task was completed at: 2022-10-07T22:04:54.12523.
+
+2022-10-07 22:04:54  INFO GameHost - Gold was changed in clan Меткайина by user doRua (ISJyT@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 9342.
+Clan's gold after: 10145.
+User started to complete the task at: 2022-10-07T22:04:54.321041.
+Task was completed at: 2022-10-07T22:04:54.321075.
+
+2022-10-07 22:04:54  INFO GameHost - Gold was changed in clan Оматикайя by user fCxHp (SWzkG@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 9868.
+Clan's gold after: 10129.
+User started to complete the task at: 2022-10-07T22:04:54.36565.
+Task was completed at: 2022-10-07T22:04:54.36568.
+
+2022-10-07 22:04:54  INFO GameHost - Gold was changed in clan Оматикайя by user lDuao (qfpsB@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 9348.
+Clan's gold after: 9868.
+User started to complete the task at: 2022-10-07T22:04:54.410801.
+Task was completed at: 2022-10-07T22:04:54.410835.
+
+2022-10-07 22:04:54  INFO GameHost - Gold was changed in clan Тайранги by user CsICN (TdCMt@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 8500.
+Clan's gold after: 8578.
+User started to complete the task at: 2022-10-07T22:04:54.453661.
+Task was completed at: 2022-10-07T22:04:54.453676.
+
+2022-10-07 22:04:54  INFO GameHost - Gold was changed in clan Оланги by user KAlSf (LOXRC@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 9537.
+Clan's gold after: 10076.
+User started to complete the task at: 2022-10-07T22:04:54.632751.
+Task was completed at: 2022-10-07T22:04:54.632787.
+
+2022-10-07 22:04:54  INFO GameHost - Gold was changed in clan Тауками by user owLiZ (dZPDy@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 5894.
+Clan's gold after: 6048.
+User started to complete the task at: 2022-10-07T22:04:54.677875.
+Task was completed at: 2022-10-07T22:04:54.6779.
+
+2022-10-07 22:04:54  INFO GameHost - Gold was changed in clan Типани by user IyAzh (baJmY@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 11282.
+Clan's gold after: 11387.
+User started to complete the task at: 2022-10-07T22:04:54.723678.
+Task was completed at: 2022-10-07T22:04:54.723703.
+
+2022-10-07 22:04:55  INFO GameHost - Gold was changed in clan Тайранги by user YJYfs (QWFBJ@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 8578.
+Clan's gold after: 9381.
+User started to complete the task at: 2022-10-07T22:04:54.767648.
+Task was completed at: 2022-10-07T22:04:54.767683.
+
+2022-10-07 22:04:55  INFO GameHost - Gold was changed in clan Оланги by user SLKrG (WhvHn@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 10076.
+Clan's gold after: 10697.
+User started to complete the task at: 2022-10-07T22:04:54.945054.
+Task was completed at: 2022-10-07T22:04:54.945079.
+
+2022-10-07 22:04:55  INFO GameHost - Gold was changed in clan Тайранги by user FbkPx (wwodF@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 9381.
+Clan's gold after: 9769.
+User started to complete the task at: 2022-10-07T22:04:54.99025.
+Task was completed at: 2022-10-07T22:04:54.990285.
+
+2022-10-07 22:04:55  INFO GameHost - Gold was changed in clan Оланги by user ymhjl (vWgch@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 10697.
+Clan's gold after: 11240.
+User started to complete the task at: 2022-10-07T22:04:55.047394.
+Task was completed at: 2022-10-07T22:04:55.047417.
+
+2022-10-07 22:04:55  INFO GameHost - Gold was changed in clan Меткайина by user SCLev (AxyxT@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 10145.
+Clan's gold after: 10913.
+User started to complete the task at: 2022-10-07T22:04:55.257012.
+Task was completed at: 2022-10-07T22:04:55.257036.
+
+2022-10-07 22:04:55  INFO GameHost - Gold was changed in clan Типани by user IupJl (VQKmA@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 11387.
+Clan's gold after: 11782.
+User started to complete the task at: 2022-10-07T22:04:55.324849.
+Task was completed at: 2022-10-07T22:04:55.324873.
+
+2022-10-07 22:04:55  INFO GameHost - Gold was changed in clan Типани by user wFluN (ZInJJ@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 11782.
+Clan's gold after: 12214.
+User started to complete the task at: 2022-10-07T22:04:55.501888.
+Task was completed at: 2022-10-07T22:04:55.501916.
+
+2022-10-07 22:04:55  INFO GameHost - Gold was changed in clan Оланги by user IgPrZ (SMHYc@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 11240.
+Clan's gold after: 11296.
+User started to complete the task at: 2022-10-07T22:04:55.546982.
+Task was completed at: 2022-10-07T22:04:55.547033.
+
+2022-10-07 22:04:55  INFO GameHost - Gold was changed in clan Оланги by user VysHL (VXoGK@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 11296.
+Clan's gold after: 11728.
+User started to complete the task at: 2022-10-07T22:04:55.602549.
+Task was completed at: 2022-10-07T22:04:55.602581.
+
+2022-10-07 22:04:55  INFO GameHost - Gold was changed in clan Анурай by user HNifm (oMvPX@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 11647.
+Clan's gold after: 11987.
+User started to complete the task at: 2022-10-07T22:04:55.769135.
+Task was completed at: 2022-10-07T22:04:55.769158.
+
+2022-10-07 22:04:56  INFO GameHost - Gold was changed in clan Типани by user ICraE (KquON@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 12214.
+Clan's gold after: 12835.
+User started to complete the task at: 2022-10-07T22:04:55.837045.
+Task was completed at: 2022-10-07T22:04:55.837077.
+
+2022-10-07 22:04:56  INFO GameHost - Gold was changed in clan Оланги by user LdKCs (xDVNl@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 11728.
+Clan's gold after: 12321.
+User started to complete the task at: 2022-10-07T22:04:55.879054.
+Task was completed at: 2022-10-07T22:04:55.879069.
+
+2022-10-07 22:04:56  INFO GameHost - Gold was changed in clan Анурай by user qCrtU (VzhqB@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 11987.
+Clan's gold after: 12507.
+User started to complete the task at: 2022-10-07T22:04:55.912595.
+Task was completed at: 2022-10-07T22:04:55.912604.
+
+2022-10-07 22:04:56  INFO GameHost - Gold was changed in clan Типани by user VAIdq (qCFVi@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 12835.
+Clan's gold after: 12911.
+User started to complete the task at: 2022-10-07T22:04:56.083327.
+Task was completed at: 2022-10-07T22:04:56.083352.
+
+2022-10-07 22:04:56  INFO GameHost - Gold was changed in clan Типани by user Zboro (hZVSf@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 12911.
+Clan's gold after: 13209.
+User started to complete the task at: 2022-10-07T22:04:56.181865.
+Task was completed at: 2022-10-07T22:04:56.181899.
+
+2022-10-07 22:04:56  INFO GameHost - Gold was changed in clan Меткайина by user lWMEe (GLJRG@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 10913.
+Clan's gold after: 11336.
+User started to complete the task at: 2022-10-07T22:04:56.29267.
+Task was completed at: 2022-10-07T22:04:56.292695.
+
+2022-10-07 22:04:56  INFO GameHost - Gold was changed in clan Тайранги by user fKObL (sRsYq@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 9769.
+Clan's gold after: 10231.
+User started to complete the task at: 2022-10-07T22:04:56.34949.
+Task was completed at: 2022-10-07T22:04:56.349515.
+
+2022-10-07 22:04:56  INFO GameHost - Gold was changed in clan Анурай by user NBjYY (AEimI@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 12507.
+Clan's gold after: 12566.
+User started to complete the task at: 2022-10-07T22:04:56.394246.
+Task was completed at: 2022-10-07T22:04:56.394282.
+
+2022-10-07 22:04:56  INFO GameHost - Gold was changed in clan Оланги by user TPVWR (RVmMt@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 12321.
+Clan's gold after: 13062.
+User started to complete the task at: 2022-10-07T22:04:56.571807.
+Task was completed at: 2022-10-07T22:04:56.571842.
+
+2022-10-07 22:04:56  INFO GameHost - Gold was changed in clan Тауками by user MCPEI (LhHsd@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 6048.
+Clan's gold after: 6696.
+User started to complete the task at: 2022-10-07T22:04:56.618545.
+Task was completed at: 2022-10-07T22:04:56.618571.
+
+2022-10-07 22:04:57  INFO GameHost - Gold was changed in clan Анурай by user OBKul (XNXRR@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 12566.
+Clan's gold after: 13112.
+User started to complete the task at: 2022-10-07T22:04:56.663634.
+Task was completed at: 2022-10-07T22:04:56.663669.
+
+2022-10-07 22:04:57  INFO GameHost - Gold was changed in clan Оланги by user pnpJI (fWKrD@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 13062.
+Clan's gold after: 13384.
+User started to complete the task at: 2022-10-07T22:04:56.841444.
+Task was completed at: 2022-10-07T22:04:56.841478.
+
+2022-10-07 22:04:57  INFO GameHost - Gold was changed in clan Типани by user fkkFz (vuact@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 13209.
+Clan's gold after: 13487.
+User started to complete the task at: 2022-10-07T22:04:56.897133.
+Task was completed at: 2022-10-07T22:04:56.897168.
+
+2022-10-07 22:04:57  INFO GameHost - Gold was changed in clan Оматикайя by user dzkrA (kiGoV@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 10129.
+Clan's gold after: 10700.
+User started to complete the task at: 2022-10-07T22:04:56.941431.
+Task was completed at: 2022-10-07T22:04:56.941466.
+
+2022-10-07 22:04:57  INFO GameHost - Gold was changed in clan Оланги by user xpGMn (kUFoh@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 13724.
+Clan's gold after: 13800.
+User started to complete the task at: 2022-10-07T22:04:57.158511.
+Task was completed at: 2022-10-07T22:04:57.158543.
+
+2022-10-07 22:04:57  INFO GameHost - Gold was changed in clan Тауками by user ElSSw (LeWNN@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 6696.
+Clan's gold after: 7190.
+User started to complete the task at: 2022-10-07T22:04:57.369798.
+Task was completed at: 2022-10-07T22:04:57.369832.
+
+2022-10-07 22:04:57  INFO GameHost - Gold was changed in clan Анурай by user IPKwh (ZwWJK@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 13112.
+Clan's gold after: 13810.
+User started to complete the task at: 2022-10-07T22:04:57.450959.
+Task was completed at: 2022-10-07T22:04:57.450971.
+
+2022-10-07 22:04:57  INFO GameHost - Gold was changed in clan Оланги by user UQNVo (wvbWs@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 13384.
+Clan's gold after: 13724.
+User started to complete the task at: 2022-10-07T22:04:57.495558.
+Task was completed at: 2022-10-07T22:04:57.495569.
+
+2022-10-07 22:04:57  INFO GameHost - Gold was changed in clan Меткайина by user ouYXP (JDFZO@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 11336.
+Clan's gold after: 11847.
+User started to complete the task at: 2022-10-07T22:04:57.6762.
+Task was completed at: 2022-10-07T22:04:57.676236.
+
+2022-10-07 22:04:58  INFO GameHost - Gold was changed in clan Тайранги by user fMwrE (VxSaT@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 10231.
+Clan's gold after: 11046.
+User started to complete the task at: 2022-10-07T22:04:57.72054.
+Task was completed at: 2022-10-07T22:04:57.720572.
+
+2022-10-07 22:04:58  INFO GameHost - Gold was changed in clan Оланги by user sXNiq (aEZHa@mail.com).
+Task type was: FIGHT_WITH_ENEMY.
+Clan's gold before: 14371.
+Clan's gold after: 14525.
+User started to complete the task at: 2022-10-07T22:04:57.765584.
+Task was completed at: 2022-10-07T22:04:57.765613.
+
+2022-10-07 22:04:58  INFO GameHost - Gold was changed in clan Оланги by user oykRl (CUyHt@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 13800.
+Clan's gold after: 14371.
+User started to complete the task at: 2022-10-07T22:04:57.954717.
+Task was completed at: 2022-10-07T22:04:57.954734.
+
+2022-10-07 22:04:58  INFO GameHost - Gold was changed in clan Тайранги by user KcRMk (idXbH@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 11046.
+Clan's gold after: 11750.
+User started to complete the task at: 2022-10-07T22:04:57.998942.
+Task was completed at: 2022-10-07T22:04:57.998965.
+
+2022-10-07 22:04:58  INFO GameHost - Gold was changed in clan Тауками by user PZJQi (PrlVZ@mail.com).
+Task type was: EXPLORE_AREA.
+Clan's gold before: 7190.
+Clan's gold after: 7850.
+User started to complete the task at: 2022-10-07T22:04:58.191302.
+Task was completed at: 2022-10-07T22:04:58.191319.
+
+2022-10-07 22:04:59  INFO GameHost - Gold was changed in clan Анурай by user bXfTI (gCNag@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 13810.
+Clan's gold after: 14004.
+User started to complete the task at: 2022-10-07T22:04:58.483756.
+Task was completed at: 2022-10-07T22:04:58.483777.
+
+2022-10-07 22:04:59  INFO GameHost - Gold was changed in clan Оланги by user FjiWx (iBpbB@mail.com).
+Task type was: CONQUERE_NEW_TERRITORY.
+Clan's gold before: 14525.
+Clan's gold after: 15005.
+User started to complete the task at: 2022-10-07T22:04:58.701831.
+Task was completed at: 2022-10-07T22:04:58.701849.
+
+2022-10-07 22:04:59  INFO GameHost - Gold was changed in clan Оланги by user PjxZO (KElZt@mail.com).
+Task type was: FIND_ARTIFACT.
+Clan's gold before: 15005.
+Clan's gold after: 15528.
+User started to complete the task at: 2022-10-07T22:04:58.801131.
+Task was completed at: 2022-10-07T22:04:58.801152.
+
