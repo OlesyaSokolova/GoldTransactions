@@ -2,6 +2,7 @@ package com.skytecgames.testtask.sokolova.repository.impl;
 
 import com.skytecgames.testtask.sokolova.db.ConnectionPoolWrapper;
 import com.skytecgames.testtask.sokolova.model.Clan;
+import com.skytecgames.testtask.sokolova.model.Task;
 import com.skytecgames.testtask.sokolova.repository.RepositoryInterface;
 
 import java.sql.*;
@@ -37,8 +38,36 @@ public class ClanRepository implements RepositoryInterface<Clan> {
     }
 
     @Override
-    public Clan getById(long id) {
-        return null;
+    public Clan getById(int id) throws SQLException {
+        try (Connection connection = connectionPool.getConnection();
+             PreparedStatement statement = connection.prepareStatement("SELECT * FROM clans WHERE id = ?")) {
+
+            List<Clan> result = new ArrayList<>();
+            statement.setInt(1, id);
+
+            ResultSet resultSet = statement.executeQuery();
+            while (resultSet.next()) {
+                result.add(createClan(resultSet));
+            }
+            return result.get(0);
+        }
+    }
+
+    @Override
+    public Clan getRandom() throws SQLException {
+        try (Connection connection = connectionPool.getConnection();
+             Statement statement = connection.createStatement()) {
+
+            List<Clan> result = new ArrayList<>();
+
+            ResultSet resultSet = statement.executeQuery("SELECT * FROM clans " +
+                    "ORDER BY RAND() " +
+                    "LIMIT 1");
+            while (resultSet.next()) {
+                result.add(createClan(resultSet));
+            }
+            return result.get(0);
+        }
     }
 
     public void update(Clan clan) throws SQLException {

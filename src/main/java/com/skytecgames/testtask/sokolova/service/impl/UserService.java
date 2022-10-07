@@ -4,7 +4,8 @@ import com.skytecgames.testtask.sokolova.model.User;
 import com.skytecgames.testtask.sokolova.repository.impl.UserRepository;
 import com.skytecgames.testtask.sokolova.service.Service;
 
-import java.util.ArrayList;
+import java.sql.SQLException;
+import java.util.List;
 
 public class UserService implements Service<User> {
 
@@ -15,17 +16,22 @@ public class UserService implements Service<User> {
     }
 
     @Override
-    public ArrayList<User> getAll() {
-        return null;
+    public List<User> getAll() throws SQLException {
+        return userRepository.getAll();
     }
 
     @Override
-    public User getById(long id) {
-        return null;
+    public User getById(int id) throws SQLException {
+        return userRepository.getById(id);
     }
 
     @Override
     public boolean save(User user) {
         return false;
+    }
+
+    @Override
+    public User getRandom() throws SQLException {
+        return userRepository.getRandom();
     }
 }

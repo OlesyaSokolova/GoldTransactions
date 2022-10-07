@@ -4,7 +4,8 @@ import com.skytecgames.testtask.sokolova.model.Clan;
 import com.skytecgames.testtask.sokolova.repository.impl.ClanRepository;
 import com.skytecgames.testtask.sokolova.service.Service;
 
-import java.util.ArrayList;
+import java.sql.SQLException;
+import java.util.List;
 
 public class ClanService implements Service<Clan> {
 
@@ -21,12 +22,17 @@ public class ClanService implements Service<Clan> {
     }
 
     @Override
-    public ArrayList<Clan> getAll() {
-        return null;
+    public Clan getRandom() throws SQLException {
+        return clanRepository.getRandom();
     }
 
     @Override
-    public Clan getById(long id) {
-        return null;
+    public List<Clan> getAll() throws SQLException {
+        return clanRepository.getAll();
+    }
+
+    @Override
+    public Clan getById(int id) throws SQLException {
+       return clanRepository.getById(id);
     }
 }

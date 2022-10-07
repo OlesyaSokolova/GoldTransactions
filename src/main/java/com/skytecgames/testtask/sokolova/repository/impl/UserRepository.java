@@ -1,17 +1,16 @@
 package com.skytecgames.testtask.sokolova.repository.impl;
 
 import com.skytecgames.testtask.sokolova.db.ConnectionPoolWrapper;
+import com.skytecgames.testtask.sokolova.model.Task;
 import com.skytecgames.testtask.sokolova.model.User;
 import com.skytecgames.testtask.sokolova.repository.RepositoryInterface;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class UserRepository implements RepositoryInterface<User> {
+
     private final ConnectionPoolWrapper connectionPool;
 
     public UserRepository(ConnectionPoolWrapper connectionPool) {
@@ -42,7 +41,35 @@ public class UserRepository implements RepositoryInterface<User> {
     }
 
     @Override
-    public User getById(long id) {
-        return null;
+    public User getById(int id) throws SQLException {
+        try (Connection connection = connectionPool.getConnection();
+             PreparedStatement statement = connection.prepareStatement("SELECT * FROM users WHERE id = ?")) {
+
+            List<User> result = new ArrayList<>();
+            statement.setInt(1, id);
+
+            ResultSet resultSet = statement.executeQuery();
+            while (resultSet.next()) {
+                result.add(createUser(resultSet));
+            }
+            return result.get(0);
+        }
+    }
+
+    @Override
+    public User getRandom() throws SQLException {
+        try (Connection connection = connectionPool.getConnection();
+             Statement statement = connection.createStatement()) {
+
+            List<User> result = new ArrayList<>();
+
+            ResultSet resultSet = statement.executeQuery("SELECT * FROM users " +
+                    "ORDER BY RAND() " +
+                    "LIMIT 1");
+            while (resultSet.next()) {
+                result.add(createUser(resultSet));
+            }
+            return result.get(0);
+        }
     }
 }

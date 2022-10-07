@@ -30,7 +30,7 @@ create table tasks(
 create table userstasks (
         userid INT NOT NULL,
         taskid INT NOT NULL,
-        assigntime DATETIME,
+        starttime DATETIME,
         completetime DATETIME,
         PRIMARY KEY (userid, taskid),
         FOREIGN KEY (userid) REFERENCES users(id),

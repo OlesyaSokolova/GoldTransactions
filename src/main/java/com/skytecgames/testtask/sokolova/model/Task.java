@@ -27,6 +27,13 @@ public class Task {
         this.award = award;
     }
 
+    public Task(int id, TaskType type, String description, int award) {
+        this.id = id;
+        this.type = type;
+        this.description = description;
+        this.award = award;
+    }
+
     public static Task generateRandomTask() {
         return new Task(
                 possibleTypes[ThreadLocalRandom.current().nextInt(0, possibleTypes.length)],

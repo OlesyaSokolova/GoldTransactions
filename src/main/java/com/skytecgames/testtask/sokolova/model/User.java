@@ -29,6 +29,7 @@ public class User {
         this.name = name;
         this.email= email;
         this.clanId = clanid;
+        this.gold = gold;
     }
 
 
@@ -59,5 +60,8 @@ public class User {
 
     public void assignTask(Task task) {
         this.task = task;
+    }
+
+    public void performTask() {
     }
 }

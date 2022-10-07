@@ -4,11 +4,14 @@ import com.skytecgames.testtask.sokolova.db.ConnectionPoolWrapper;
 import com.skytecgames.testtask.sokolova.db.DataBaseInitializer;
 import com.skytecgames.testtask.sokolova.model.Clan;
 import com.skytecgames.testtask.sokolova.model.Task;
+import com.skytecgames.testtask.sokolova.model.TaskAssignement;
 import com.skytecgames.testtask.sokolova.model.User;
+import com.skytecgames.testtask.sokolova.repository.TaskAssignementRepository;
 import com.skytecgames.testtask.sokolova.repository.impl.ClanRepository;
 import com.skytecgames.testtask.sokolova.repository.impl.TaskRepository;
 import com.skytecgames.testtask.sokolova.repository.impl.UserRepository;
 import com.skytecgames.testtask.sokolova.service.Service;
+import com.skytecgames.testtask.sokolova.service.TaskAssignementService;
 import com.skytecgames.testtask.sokolova.service.impl.ClanService;
 import com.skytecgames.testtask.sokolova.service.impl.TaskService;
 import com.skytecgames.testtask.sokolova.service.impl.UserService;
@@ -38,20 +41,21 @@ public class GameController {
       // dataBaseInitializer.initDB();
     }
 
-    public void start() {
+    public void start() throws SQLException {
 
         ClanRepository clanRepository = new ClanRepository(connectionPool);
         TaskRepository taskRepository = new TaskRepository(connectionPool);
         UserRepository userRepository = new UserRepository(connectionPool);
+        TaskAssignementRepository taskAssignementRepository = new TaskAssignementRepository(connectionPool);
 
         Service<Clan> clanService = new ClanService(clanRepository);
         Service<Task> taskService = new TaskService(taskRepository);
         Service<User> userService = new UserService(userRepository);
+        TaskAssignementService taskAssignementService = new TaskAssignementService(taskAssignementRepository);
 
-        GameHost gameHost = new GameHost(clanService, taskService, userService);
+        GameHost gameHost = new GameHost(clanService, taskService, userService, taskAssignementService);
 
         gameHost.prepareGameConditions();
-        //а вот здесь они уже запускаются в игру
         gameHost.start();
     }
 }

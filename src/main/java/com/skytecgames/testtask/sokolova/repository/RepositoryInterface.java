@@ -7,7 +7,9 @@ public interface RepositoryInterface <T> {
 
     List<T> getAll() throws SQLException;
 
-    T getById(long id);
+    T getById(int id) throws SQLException;
+
+    T getRandom() throws SQLException;
 
    // boolean save(T user) throws SQLException;
 }

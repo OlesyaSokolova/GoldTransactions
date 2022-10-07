@@ -10,18 +10,18 @@ package com.skytecgames.testtask.sokolova.model;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
-public class GoldAccrualTransaction {
+public class TransactionInfo {
 
     private final int userTaskId; //-> clanid by userId, completiontime by userTask
     private final int goldBefore;
     private final int goldAfter;
 
-    public getDetailedInfo() {
+    /*public getDetailedInfo() {
         return "Gold was changed in clan " + getClanNameById(userTaskId.getClanId())
                 + " by user " + getUserNameById(userTaskId.getUserId()) + "."
                 + "Gold before: " + goldBefore + ";\n"
                 + "Gold after: " + goldAfter + "\n;"
                 + "Task was completed at: " + userTaskId.getCompletedAt();
 
-    }
+    }*/
 }
