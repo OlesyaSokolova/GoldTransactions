@@ -83,7 +83,7 @@ Task was completed at: 2022-10-07T23:33:23.915212.
 List<DetailedTransactionInfo> transactionInfos  = completedTasks.stream().map(CompletableFuture::join).collect(Collectors.toList());
 ```
 
-## 4. Техничсекая информация
+## 4. Техническая информация
   - Java 11
   - MySQL
   - HikariCP
