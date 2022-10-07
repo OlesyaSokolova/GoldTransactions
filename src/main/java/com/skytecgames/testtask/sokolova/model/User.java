@@ -3,12 +3,16 @@ package com.skytecgames.testtask.sokolova.model;
 import lombok.Getter;
 import org.apache.commons.lang3.RandomStringUtils;
 
+import java.time.LocalDateTime;
+
 @Getter
 public class User {
 
     private static final int NAME_LENGTH = 5;
     private static final String EMAIL_POSTFIX = "@mail.com";
     private static final int INITIAL_GOLD = 30;
+    private static final int DIFFICULTY_COEFFICIENT = 1000;
+    private static final int CLAN_CONTRIBUTION_PERCENTAGE = 80;
 
     public static final String PARAMETRIZED_STATEMENT = "INSERT INTO users (name, email, clanid, gold) " +
                                                                    "values (?,    ?,     ?,      ?   )";
@@ -50,10 +54,6 @@ public class User {
         );
     }
 
-    public void updateGold(int delta) {
-        gold += delta;
-    }
-
     public void assignToClan(int clanId) {
         this.clanId = clanId;
     }
@@ -63,6 +63,24 @@ public class User {
     }
 
     public TransactionInfo performTask() {
-        return null;
+        TransactionInfo transactionInfo = new TransactionInfo(id, clanId, task.getId());
+        transactionInfo.setStartTime(LocalDateTime.now());
+
+        for(int i = 0; i < task.getAward()*DIFFICULTY_COEFFICIENT; i++) {
+            doSomethingVeryHard(i);
+        }
+
+        transactionInfo.setCompleteTime(LocalDateTime.now());
+        gold += task.getAward();
+        transactionInfo.setGoldDelta(gold*CLAN_CONTRIBUTION_PERCENTAGE/100);
+        return transactionInfo;
+    }
+
+    private void doSomethingVeryHard(int i) {
+        int a = i;
+        int b = i * 2;
+        a = a + b;
+        b = a - b;
+        a = a - b;
     }
 }

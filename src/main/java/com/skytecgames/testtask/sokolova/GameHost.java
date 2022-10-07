@@ -42,12 +42,14 @@ public class GameHost {
     }
 
     public void start() {
-        List<CompletableFuture<TransactionInfo>> completedTasks = users.stream()
+        List<CompletableFuture<DetailedTransactionInfo>> completedTasks = users.stream()
                         .map(user -> CompletableFuture.supplyAsync(
                                 user::performTask))
                         .map(future -> future.thenApply(transactionInfo -> {
-                                transactionInfo.setCompleteTime(LocalDateTime.now());
-                                return getDetailedTransactionInfo(transactionInfo);
+                            ///////////////////////////////////////////////////
+                            ///synchronized:: change and log info!!!
+                                return processTransactionResults(transactionInfo);
+                            ////////////////////////////////////////////////
                                 }))
                         .collect(Collectors.toList());
 
@@ -55,15 +57,24 @@ public class GameHost {
         //completedTasks.stream().map(CompletableFuture::join).collect(Collectors.toList());
     }
 
-    private synchronized TransactionInfo getDetailedTransactionInfo(TransactionInfo transactionInfo) {
+    private synchronized DetailedTransactionInfo processTransactionResults(TransactionInfo transactionInfo) {
+        int clanId = transactionInfo.getClanId();
+        transactionInfo.setGoldBefore(clans[clanId].getGold());
+        clans[clanId].updateGold(transactionInfo.getGoldDelta());
         try {
+            return getDetailedInfo(transactionInfo);
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+        /*try {
             DetailedTransactionInfo detailedInfo = getDetailedInfo(transactionInfo);
         } catch (SQLException e) {
             //log.error: error while retrieving info about user
             e.printStackTrace();
         }
-        return clans[transactionInfo.getClanId()].updateGold(transactionInfo.getGoldDelta());
-    }
+    }*/
 
    private DetailedTransactionInfo getDetailedInfo(TransactionInfo transactionInfo) throws SQLException {
         return new DetailedTransactionInfo(
