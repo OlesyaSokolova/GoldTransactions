@@ -31,14 +31,11 @@ public class GameController {
         return GameControllerHolder.instance;
     }
 
-    GameController() {
-    }
-
-    public void init() throws IOException, SQLException {
+    public void init() throws IOException, SQLException, ClassNotFoundException {
 
        connectionPool = new ConnectionPoolWrapper();
        DataBaseInitializer dataBaseInitializer = new DataBaseInitializer(connectionPool);
-      // dataBaseInitializer.initDB();
+       dataBaseInitializer.initDB();
     }
 
     public void start() throws SQLException {

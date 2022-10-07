@@ -6,7 +6,6 @@ import com.skytecgames.testtask.sokolova.service.TaskAssignementService;
 import lombok.extern.log4j.Log4j2;
 
 import java.sql.SQLException;
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -19,7 +18,6 @@ public class GameHost {
     private final Service<Task> taskService;
     private final Service<User> userService;
     private final TaskAssignementService taskAssignementsService;
-    //private final TaskComletionTracker taskComletionTracker;
 
     private Clan[] clans;
     private List<User> users;
@@ -43,18 +41,14 @@ public class GameHost {
 
     public void start() {
         List<CompletableFuture<DetailedTransactionInfo>> completedTasks = users.stream()
-                        .map(user -> CompletableFuture.supplyAsync(
-                                user::performTask))
-                        .map(future -> future.thenApply(transactionInfo -> {
-                            ///////////////////////////////////////////////////
-                            ///synchronized:: change and log info!!!
-                                return processTransactionResults(transactionInfo);
-                            ////////////////////////////////////////////////
-                                }))
+                        .map(user ->
+                                CompletableFuture.supplyAsync(user::performTask))
+                        .map(future ->
+                                future.thenApply(this::processTransactionResults))
                         .collect(Collectors.toList());
 
         //do somethimg with result: - save to db, for example or write to file
-        //completedTasks.stream().map(CompletableFuture::join).collect(Collectors.toList());
+        completedTasks.stream().map(CompletableFuture::join).forEach(System.out::println);
     }
 
     private synchronized DetailedTransactionInfo processTransactionResults(TransactionInfo transactionInfo) {
@@ -68,13 +62,6 @@ public class GameHost {
             return null;
         }
     }
-        /*try {
-            DetailedTransactionInfo detailedInfo = getDetailedInfo(transactionInfo);
-        } catch (SQLException e) {
-            //log.error: error while retrieving info about user
-            e.printStackTrace();
-        }
-    }*/
 
    private DetailedTransactionInfo getDetailedInfo(TransactionInfo transactionInfo) throws SQLException {
         return new DetailedTransactionInfo(

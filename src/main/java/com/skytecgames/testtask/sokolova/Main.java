@@ -10,12 +10,8 @@ public class Main {
 
         try {
             GameController gameController = GameController.getInstance();
-            //todo: ъединить два метода, а то сейчас init омжет быть забыт
             gameController.init();
             gameController.start();
-            //tODO: results will be shown in the logs
-            //gameController.printResult();
-            //dbMManager.initDB();
         }
         catch (Exception e) {
             e.printStackTrace();

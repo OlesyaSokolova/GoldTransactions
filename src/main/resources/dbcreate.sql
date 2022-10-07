@@ -25,13 +25,10 @@ create table tasks(
        award INT NOT NULL /*вознаграждение (золото) за выполнение задания*/
 );
 
-/*TODO:  вероятно, не нужна эта таблица, тк таблицы пользователей не будет
-*//*таблица для реализации связи много-ко-многим: пользователь-задание */
+/*таблица для реализации связи много-ко-многим: пользователь-задание */
 create table userstasks (
         userid INT NOT NULL,
         taskid INT NOT NULL,
-        starttime DATETIME,
-        completetime DATETIME,
         PRIMARY KEY (userid, taskid),
         FOREIGN KEY (userid) REFERENCES users(id),
         FOREIGN KEY (taskid) REFERENCES tasks(id)

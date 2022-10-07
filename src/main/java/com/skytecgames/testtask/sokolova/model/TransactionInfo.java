@@ -16,7 +16,6 @@ public class TransactionInfo {
     private LocalDateTime startTime;
     private LocalDateTime completeTime;
 
-
     public TransactionInfo(int userId, int clanId, int taskId) {
         this.userId = userId;
         this.clanId = clanId;

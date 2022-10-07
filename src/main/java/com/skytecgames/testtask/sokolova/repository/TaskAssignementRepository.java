@@ -1,12 +1,9 @@
 package com.skytecgames.testtask.sokolova.repository;
 
 import com.skytecgames.testtask.sokolova.db.ConnectionPoolWrapper;
-import com.skytecgames.testtask.sokolova.model.Clan;
 import com.skytecgames.testtask.sokolova.model.TaskAssignement;
 
 import java.sql.*;
-import java.time.LocalDateTime;
-import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,9 +17,7 @@ public class TaskAssignementRepository {
     private TaskAssignement createTaskAssignement(ResultSet resultSet) throws SQLException {
         return new TaskAssignement(resultSet.getInt("id"),
                 resultSet.getInt("userid"),
-                resultSet.getInt("taskid"),
-                LocalDateTime.ofInstant(resultSet.getDate("starttime").toInstant(), ZoneId.systemDefault()),
-                LocalDateTime.ofInstant(resultSet.getDate("completetime").toInstant(), ZoneId.systemDefault())
+                resultSet.getInt("taskid")
         );
     }
 

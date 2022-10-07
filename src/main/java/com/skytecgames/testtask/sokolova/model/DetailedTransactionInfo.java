@@ -25,8 +25,6 @@ public class DetailedTransactionInfo {
     private final LocalDateTime startTime;
     private final LocalDateTime completeTime;
 
-
-    //todo: complete time to string
     @Override
     public String toString() {
         return "Gold was changed in clan " + clanName
