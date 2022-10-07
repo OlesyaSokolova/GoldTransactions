@@ -30,7 +30,6 @@ public class ConnectionPoolWrapper {
         dataSource = new HikariDataSource(config);
     }
 
-    //TODO: apply statement (give it to connection pool)
     public Connection getConnection() throws SQLException {
         return dataSource.getConnection();
     }

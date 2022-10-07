@@ -62,6 +62,7 @@ public class User {
         this.task = task;
     }
 
-    public void performTask() {
+    public TransactionInfo performTask() {
+        return null;
     }
 }

@@ -26,11 +26,6 @@ public class UserService implements Service<User> {
     }
 
     @Override
-    public boolean save(User user) {
-        return false;
-    }
-
-    @Override
     public User getRandom() throws SQLException {
         return userRepository.getRandom();
     }

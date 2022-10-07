@@ -57,7 +57,6 @@ public class DataBaseInitializer {
                 statement.setInt(3, task.getAward());
                 statement.addBatch();
 
-                //statement.addBatch(task.getInsertStatement());
                 if(i % INSERT_LIMIT == 0) {
                     statement.executeBatch();
                 }
@@ -85,7 +84,7 @@ public class DataBaseInitializer {
                 statement.setInt(3, user.getClanId());
                 statement.setInt(4, user.getGold());
                 statement.addBatch();
-                //statement.addBatch(user.getInsertStatement());
+
                 if(i % INSERT_LIMIT == 0) {
                     statement.executeBatch();
                 }

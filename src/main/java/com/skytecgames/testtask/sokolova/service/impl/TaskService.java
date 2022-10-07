@@ -16,8 +16,6 @@ public class TaskService implements Service<Task> {
         this.taskRepository = taskRepository;
     }
 
-    //Этот метод не нужен, но возможно стоит оставить на будущее
-
     @Override
     public List<Task> getAll() throws SQLException {
         return taskRepository.getAll();
@@ -26,12 +24,6 @@ public class TaskService implements Service<Task> {
     @Override
     public Task getById(int taskId) throws SQLException {
         return taskRepository.getById(taskId);
-    }
-
-    @Override
-    public boolean save(Task task) {
-        //taskRepository.save
-        return false;
     }
 
     @Override

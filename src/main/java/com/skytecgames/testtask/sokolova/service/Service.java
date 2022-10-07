@@ -10,7 +10,5 @@ public interface Service<T> {
 
     T getById(int id) throws SQLException;
 
-    boolean save(T t);
-
     T getRandom() throws SQLException;
 }

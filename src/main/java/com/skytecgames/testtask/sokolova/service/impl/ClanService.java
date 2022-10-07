@@ -16,12 +16,6 @@ public class ClanService implements Service<Clan> {
     }
 
     @Override
-    public boolean save(Clan clan) {
-        //clanRepository.save(clan);
-        return false;
-    }
-
-    @Override
     public Clan getRandom() throws SQLException {
         return clanRepository.getRandom();
     }
