@@ -1,8 +1,6 @@
 package com.skytecgames.testtask.sokolova.model;
 
-
 import lombok.Getter;
-
 import java.util.concurrent.ThreadLocalRandom;
 
 @Getter
@@ -42,18 +40,7 @@ public class Task {
         );
     }
 
-    /*//@Override
-    public String getParametrizedStatement() {
-        return "INSERT INTO tasks (type, description, award) " +
-                "VALUES (" +
-                "'" + type + "'" + ", " +
-                "'" + description + "'" + ", " +
-                + award + ")";
-    }*/
-
-    //@Override
     public static Task generateRandomInstance() {
         return generateRandomTask();
     }
-
 }

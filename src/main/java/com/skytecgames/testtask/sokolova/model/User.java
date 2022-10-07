@@ -36,17 +36,6 @@ public class User {
         this.gold = gold;
     }
 
-
-   /* @Override
-    public String getInsertStatement() {
-        return "INSERT INTO users (name, email, clanid, gold) " +
-                "VALUES (" +
-                "'" + name + "'" + ", " +
-                "'" + email + "'" + ", " +
-                clanId + ", " +
-                gold + ")";
-    }*/
-
     public static User generateRandomInstance() {
         return new User(
                 RandomStringUtils.randomAlphabetic(NAME_LENGTH),

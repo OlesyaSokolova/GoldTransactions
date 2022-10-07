@@ -28,11 +28,11 @@ public class DetailedTransactionInfo {
     @Override
     public String toString() {
         return "Gold was changed in clan " + clanName
-                + " by user " + user.getName() + " (" + user.getEmail() + ")."
-                + "Task type was: " + task.getType() + ";\n"
-                + "Clan's gold before: " + goldBefore + ";\n"
-                + "Clan's gold after: " + (goldBefore + goldDelta) + ";\n"
-                + "User started to complete the task at: " + startTime.format(formatter) + ";\n"
+                + " by user " + user.getName() + " (" + user.getEmail() + ").\n"
+                + "Task type was: " + task.getType() + ".\n"
+                + "Clan's gold before: " + goldBefore + ".\n"
+                + "Clan's gold after: " + (goldBefore + goldDelta) + ".\n"
+                + "User started to complete the task at: " + startTime.format(formatter) + ".\n"
                 + "Task was completed at: " + completeTime.format(formatter) + ".\n";
     }
 }

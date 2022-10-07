@@ -4,7 +4,6 @@ import com.skytecgames.testtask.sokolova.db.ConnectionPoolWrapper;
 import com.skytecgames.testtask.sokolova.db.DataBaseInitializer;
 import com.skytecgames.testtask.sokolova.model.Clan;
 import com.skytecgames.testtask.sokolova.model.Task;
-import com.skytecgames.testtask.sokolova.model.TaskAssignement;
 import com.skytecgames.testtask.sokolova.model.User;
 import com.skytecgames.testtask.sokolova.repository.TaskAssignementRepository;
 import com.skytecgames.testtask.sokolova.repository.impl.ClanRepository;
@@ -18,7 +17,6 @@ import com.skytecgames.testtask.sokolova.service.impl.UserService;
 
 import java.io.IOException;
 import java.sql.SQLException;
-
 
 public class GameController {
     private ConnectionPoolWrapper connectionPool;

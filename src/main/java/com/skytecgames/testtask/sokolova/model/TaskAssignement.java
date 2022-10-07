@@ -2,8 +2,6 @@ package com.skytecgames.testtask.sokolova.model;
 
 import lombok.AllArgsConstructor;
 
-import java.time.LocalDateTime;
-
 @AllArgsConstructor
 public class TaskAssignement {
     private int id;

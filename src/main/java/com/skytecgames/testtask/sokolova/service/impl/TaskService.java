@@ -5,7 +5,6 @@ import com.skytecgames.testtask.sokolova.repository.impl.TaskRepository;
 import com.skytecgames.testtask.sokolova.service.Service;
 
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.List;
 
 public class TaskService implements Service<Task> {

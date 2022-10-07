@@ -48,7 +48,7 @@ public class GameHost {
                         .collect(Collectors.toList());
 
         //do somethimg with result: - save to db, for example or write to file
-        completedTasks.stream().map(CompletableFuture::join).forEach(System.out::println);
+        completedTasks.stream().map(CompletableFuture::join).forEach(log::info);
     }
 
     private synchronized DetailedTransactionInfo processTransactionResults(TransactionInfo transactionInfo) {
