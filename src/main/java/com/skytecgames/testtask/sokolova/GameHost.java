@@ -47,7 +47,8 @@ public class GameHost {
                                 future.thenApply(this::processTransactionResults))
                         .collect(Collectors.toList());
 
-        completedTasks.stream().map(CompletableFuture::join).forEach(log::info);
+        //можно сохранить их в файл или как-то ещё обработать
+        List<DetailedTransactionInfo> transactionInfos  = completedTasks.stream().map(CompletableFuture::join).collect(Collectors.toList());
     }
 
     private synchronized DetailedTransactionInfo processTransactionResults(TransactionInfo transactionInfo) {
@@ -56,9 +57,19 @@ public class GameHost {
         clans[clanId].updateGold(transactionInfo.getGoldDelta());
         try {
             clanService.update(clans[clanId]);
-            return getDetailedInfo(transactionInfo);
+            DetailedTransactionInfo detailedTransactionInfo = getDetailedInfo(transactionInfo);
+
+            //Информация о транзакция пишется в логи!
+            log.info(detailedTransactionInfo);
+
+
+            return detailedTransactionInfo;
         } catch (SQLException e) {
-            e.printStackTrace();
+            log.error("Error while extracting detailed info about transaction. Brief info:\n " +
+                    "User id: " + transactionInfo.getUserId() + "\n" +
+                    "Clan id: " + transactionInfo.getClanId() + "\n" +
+                    "Gold added: " + transactionInfo.getGoldDelta() + "\n" +
+                    "Error medssage: " + e.getMessage());
             return null;
         }
     }
