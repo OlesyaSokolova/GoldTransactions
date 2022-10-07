@@ -36,6 +36,6 @@ public class TaskService implements Service<Task> {
 
     @Override
     public Task getRandom() throws SQLException {
-        return taskRepository.getRandomTask();
+        return taskRepository.getRandom();
     }
 }
