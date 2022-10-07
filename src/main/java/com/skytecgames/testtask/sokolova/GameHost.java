@@ -6,6 +6,7 @@ import com.skytecgames.testtask.sokolova.service.TaskAssignementService;
 import lombok.extern.log4j.Log4j2;
 
 import java.sql.SQLException;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -44,17 +45,13 @@ public class GameHost {
         List<CompletableFuture<TransactionInfo>> completedTasks = users.stream()
                         .map(user -> CompletableFuture.supplyAsync(
                                 user::performTask))
-                        //here user = transaction info!!
                         .map(future -> future.thenApply(transactionInfo -> {
-                                //getDetailedTransactionInfo(transactionInfo))
-                                transactionInfo.setCompleteTime(CurrentTime);
-                                transactionInfo.setGoldToAdd();
+                                transactionInfo.setCompleteTime(LocalDateTime.now());
                                 return getDetailedTransactionInfo(transactionInfo);
-                                //return clans[transactionInfo.getClanId()].updateGold(transactionInfo.getGoldToAdd());
                                 }))
                         .collect(Collectors.toList());
 
-        //do somethimg with result:
+        //do somethimg with result: - save to db, for example or write to file
         //completedTasks.stream().map(CompletableFuture::join).collect(Collectors.toList());
     }
 
@@ -65,7 +62,7 @@ public class GameHost {
             //log.error: error while retrieving info about user
             e.printStackTrace();
         }
-        return clans[transactionInfo.getClanId()].updateGold(transactionInfo.getGoldToAdd());
+        return clans[transactionInfo.getClanId()].updateGold(transactionInfo.getGoldDelta());
     }
 
    private DetailedTransactionInfo getDetailedInfo(TransactionInfo transactionInfo) throws SQLException {
@@ -74,10 +71,9 @@ public class GameHost {
                 userService.getById(transactionInfo.getUserId()),
                 clanService.getById(transactionInfo.getClanId()).getName(),
                 transactionInfo.getGoldBefore(),
-                transactionInfo.getGoldToAdd(),
+                transactionInfo.getGoldDelta(),
                 transactionInfo.getStartTime(),
                 transactionInfo.getCompleteTime()
                 );
     }
-
 }
