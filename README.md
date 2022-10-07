@@ -69,7 +69,7 @@ DetailedTransactionInfo - вспомогательный класс для от�
         .....
  ```    
  ## 3. Обработка резлуьтатов
-Информация о транзакциях пишется в логи - для примера см. файл [transactions.log](https://github.com/OlesyaSokolova/GoldTransactions/transactions.log)
+Информация о транзакциях пишется в логи - для примера см. файл [transactions.log](https://github.com/OlesyaSokolova/GoldTransactions/blob/master/transactions.log)
 ```
 2022-10-07 23:33:24  INFO GameHost - Gold was changed in clan Тауками by user dahwB (twxVY@mail.com).
 Task type was: FIND_ARTIFACT.
