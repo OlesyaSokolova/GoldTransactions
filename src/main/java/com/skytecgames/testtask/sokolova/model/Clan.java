@@ -11,7 +11,8 @@ public class Clan {
     private final String name; // имя клана
     private int gold;    // текущее количество золота в казне клана
 
-    public void updateGold(int delta) {
+    public TransactionInfo updateGold(int delta) {
         gold += delta;
+        return null;
     }
 }
